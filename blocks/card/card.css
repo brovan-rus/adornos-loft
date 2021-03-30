@@ -1,0 +1,15 @@
+.card{
+  z-index: 1;
+  box-sizing: border-box;
+  padding: 0 32px;
+  min-height: 267px;
+  align-self: start;
+}
+
+/*@media screen and (max-width: 1200px){*/
+/*  .card{*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*    align-content: center;*/
+/*  }*/
+/*}*/

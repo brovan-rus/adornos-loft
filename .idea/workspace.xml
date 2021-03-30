@@ -2,32 +2,44 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="36b00439-d27d-4b4c-800a-1bbdfade0e89" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/blocks/description/__text/description__text.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blocks/description/__titile/description__title.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blocks/description/description.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blocks/gallery/__image/gallery__image.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blocks/gallery/gallery.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blocks/header/__link-list/header__link-list.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blocks/header/__link/header__link.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blocks/heading/__booking-button/heading__booking-button.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blocks/heading/__subtitle/heading__subtitle.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blocks/heading/__title/heading__title.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blocks/heading/__video-container/heading__video-container.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blocks/heading/__video/heading__video.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blocks/heading/heading.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blocks/intro/intro.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blocks/main/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blocks/page/__description/page__description.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blocks/page/__gallery/page__gallery.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blocks/page/__heading/page__heading.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blocks/page/__intro/page__intro.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/booking-button/_place/booking-button_place_ending.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/booking-button/_place/booking-button_place_footer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/booking-button/booking-button.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/card/__image-container/card__image-container.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/content/__feachures/content__feachures.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/ending/__titile/ending__title.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/ending/ending.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/feachures/__cards/feachures__cards.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/feachures/__subtitle/feachures__subtitle.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/feachures/__title/feachures__title.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/feachures/feachures.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/footer/footer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/link/_place/link_place_footer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/link/_place/link_place_header.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/logo/_place/logo_place_footer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/nav/_place/nav_place_footer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/page/__content/page__content.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/page/__footer/page__footer.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blocks/page/__header/__nav/header__nav" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/description/__list/description__list.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blocks/page/__header/__nav/header__nav.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/header/__nav/header__nav.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blocks/gallery/gallery.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/gallery/gallery.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blocks/header/__link-list/header__link-list.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/link-list/link-list.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blocks/header/__link/header__link.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/link/link.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blocks/header/__logo/header__logo.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/logo/logo.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blocks/header/__nav/header__nav.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/nav/nav.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blocks/main/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/content/content.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blocks/page/__description/page__description.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/content/__description/content__description.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blocks/page/__gallery/page__gallery.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/content/__gallery/content__gallery.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blocks/page/__header/page__header.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/page/__header/page__header.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blocks/page/page.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/page/page.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blocks/page/__heading/page__heading.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/content/__heading/content__heading.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blocks/page/__intro/page__intro.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/content/__intro/content__intro.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Adornos1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/Adornos1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Adornos2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/Adornos2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Adornos3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/Adornos3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Adornos4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/Adornos4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Adornos5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/Adornos5.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/normalize.css" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/normalize.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +48,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="ProjectId" id="1qOzeOR5op78MYw0M8bEfofMkjJ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -51,15 +71,21 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../russian-travel/index.html" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/blocks" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="reference.idesettings.emmet.xml" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ASUS\dev\adornos-loft\blocks" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ASUS\dev\adornos-loft\blocks" />
+      <recent name="C:\Users\ASUS\dev\adornos-loft\blocks\ending\__titile" />
+      <recent name="C:\Users\ASUS\dev\adornos-loft\blocks\page" />
+      <recent name="C:\Users\ASUS\dev\adornos-loft\blocks\content" />
       <recent name="C:\Users\ASUS\dev\adornos-loft\blocks\page\__heading" />
-      <recent name="C:\Users\ASUS\dev\adornos-loft\blocks\header" />
     </key>
   </component>
   <component name="RunManager">
@@ -84,7 +110,8 @@
       <workItem from="1616965714890" duration="1491000" />
       <workItem from="1616967319783" duration="5786000" />
       <workItem from="1617011096054" duration="5000" />
-      <workItem from="1617031897144" duration="31979000" />
+      <workItem from="1617031897144" duration="32052000" />
+      <workItem from="1617112813481" duration="23297000" />
     </task>
     <servers />
   </component>
@@ -102,5 +129,8 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/adornos_loft$index_html.dat" NAME="index.html Coverage Results" MODIFIED="1617123889766" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="WipCoverageRunner" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>

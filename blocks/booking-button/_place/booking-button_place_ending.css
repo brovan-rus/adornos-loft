@@ -1,0 +1,12 @@
+.booking-button_place_header{
+  width: 350px;
+}
+
+.booking-button_place_header:hover{
+  background-color: red;
+  width: 450px;
+  font-size: 30px;
+}
+
+
+

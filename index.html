@@ -12,29 +12,29 @@
 <body>
   <div class="page">
     <header class="header page__header">
-      <div class="header__logo"></div>
-      <nav class="header__nav">
-        <ul class="header__link-list">
-          <li class="header__link-list-element"><a class="header__link" href="#" target="_self">Лофт</a></li>
-          <li class="header__link-list-element"><a class="header__link" href="#" target="_self">Цены</a></li>
-          <li class="header__link-list-element"><a class="header__link" href="#" target="_self">Контакты</a></li>
+        <div class="logo"></div>
+      <nav class="nav">
+        <ul class="link-list">
+          <li class="header__link-list-element"><a class="link link_place_header" href="#" target="_self">Лофт</a></li>
+          <li class="header__link-list-element"><a class="link link_place_header" href="#" target="_self">Цены</a></li>
+          <li class="header__link-list-element"><a class="link link_place_header" href="#" target="_self">Контакты</a></li>
         </ul>
       </nav>
     </header>
-    <main class="main">
-      <div class="intro page__intro">
-        <section class="heading page__heading">
+    <main class="content page__content">
+      <div class="intro content__intro">
+        <section class="heading content__heading">
           <h1 class="heading__title">Премиум лофт в центре Москвы</h1>
           <p class="heading__subtitle">Проведите свое незабываемое событие в современном
             пространстве в центре города</p>
-          <button class="heading__booking-button">Забронировать сейчас</button>
+          <button class="booking-button booking-button_place_header">Забронировать сейчас</button>
           <div class="heading__video-container">
             <video class="heading__video" loop autoplay playsinline muted>
               <source src="./images/heading-video.mp4" type="video/mp4">
             </video>
           </div>
         </section>
-        <section class="description page__description">
+        <section class="description content__description">
           <h2 class="description__title">Зачем мне снимать лофт?</h2>
           <p class="description__text">Стильное современное пространство для проведения любого незабываемого мероприятия. Наше помещение создано с учетом мельчайших деталей для того, чтобы Ваш праздник, семинар или дружеская встреча прошли на высшем уровне. Аренда лофта «Adornos» – это прекрасная возможность отметить памятную дату или важное событие в замечательном месте, где каждому приглашенному будет уютно и комфортно, где у каждого будут яркие локации для фото, где гости смогут весело и интересно провести время.</p>
           <ul class="description__text description__list">
@@ -46,22 +46,75 @@
           </ul>
         </section>
       </div>
-      <section class="gallery">
+
+      <section class="gallery content__gallery">
         <img src="./images/adornos1.jpg" alt="" class="gallery__image">
         <img src="./images/adornos2.jpg" alt="" class="gallery__image">
         <img src="./images/adornos3.jpg" alt="" class="gallery__image">
         <img src="./images/adornos4.jpg" alt="" class="gallery__image">
-        <img src="" alt="" class="galerry__image">
-        <img src="" alt="" class="galerry__image">
-        <img src="" alt="" class="galerry__image">
-        <img src="" alt="" class="galerry__image">
-        <img src="" alt="" class="galerry__image">
-        <img src="" alt="" class="galerry__image">
-        <img src="" alt="" class="galerry__image">
-        <img src="" alt="" class="galerry__image">
+        <img src="./images/adornos5.jpg" alt="" class="gallery__image">
+        <img src="./images/adornos6.jpg" alt="" class="gallery__image">
+        <img src="./images/adornos7.jpg" alt="" class="gallery__image">
+        <img src="./images/adornos8.jpg" alt="" class="gallery__image">
+        <img src="./images/adornos9.jpg" alt="" class="gallery__image">
+        <img src="./images/adornos10.jpg" alt="" class="gallery__image">
+        <img src="./images/adornos11.jpg" alt="" class="gallery__image">
+        <img src="./images/adornos12.jpg" alt="" class="gallery__image">
+      </section>
 
+      <section class="feachures content__feachures">
+        <h2 class="feachures__title">Лофт для любых событий</h2>
+        <p class="feachures__subtitle">На 180 квадратных метрах, оформленных в стиле «Лофт», можно реализовать любые креативные идеи.</p>
+        <ul class="feachures__cards">
+          <li class="card">
+              <img class="card__image" src="./images/dance.jpg" alt="Иллюстрация, танцующая пара">
+              <div class="card__image-text">Забронировать сейчас</div>
+            <h3 class="card__title">Танцевальные мероприятия</h3>
+            <p class="card__text">Boost your brand recognition with each click. Generic links don’t mean a thing. Branded links help instil confidence in your content.</p>
+          </li>
+          <li class="card">
+            <img class="card__image" src="./images/children.jpg" alt="Веселящиеся дети">
+            <h3 class="card__title">Детские праздники</h3>
+            <p class="card__text">Improve brand awareness and content discoverability through customizable links, supercharging audience engagement.</p>
+          </li>
+          <li class="card">
+            <img class="card__image" src="./images/photosession.jpg" alt="Изображение старого фотоаппарата">
+            <h3 class="card__title">Фотосессии</h3>
+            <p class="card__text">Improve brand awareness and content discoverability through customizable links, supercharging audience engagement.</p>
+          </li>
+          <li class="card">
+            <img class="card__image" src="images/birthday.jpg" alt="Торт со свечами">
+            <h3 class="card__title"> Дни рождения</h3>
+            <p class="card__text">Boost your brand recognition with each click. Generic links don’t mean a thing. Branded links help instil confidence in your content.</p>
+          </li>
+          <li class="card">
+            <img class="card__image" src="images/wedding.jpg" alt="Пара держится за руки">
+            <h3 class="card__title">Свадьбы</h3>
+            <p class="card__text">Gain insights into who is clicking your links. Knowing when and where people engage with your content helps inform better decisions.</p>
+          </li>
+          <li class="card">
+            <img class="card__image" src="images/training.jpg" alt="Люди за ноутбуками в офисе">
+            <h3 class="card__title">Тренинги</h3>
+            <p class="card__text">Gain insights into who is clicking your links. Knowing when and where people engage with your content helps inform better decisions.</p>
+          </li>
+        </ul>
+      </section>
+      <section class="ending">
+        <h2 class="ending__title">Арендовать лофт в Москве</h2>
+        <button class="booking-button booking-button_place_ending">Забронировать сейчас</button>
       </section>
     </main>
+
+    <footer class="footer page__footer">
+      <div class="logo logo_place_footer"></div>
+      <nav class="nav nav_place_footer">
+        <ul class="link-list">
+          <li><a class="link link_place_footer" href="#" target="_self">Лофт</a></li>
+          <li><a class="link link_place_footer" href="#" target="_self">Цены</a></li>
+          <li><a class="link link_place_footer" href="#" target="_self">Контакты</a></li>
+        </ul>
+      </nav>
+    </footer>
   </div>
 </body>
 </html>

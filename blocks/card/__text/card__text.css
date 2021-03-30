@@ -1,0 +1,16 @@
+.card__text{
+  font-family: 'Prata', 'Arial', 'Helvetica', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 26px;
+  color: #9E9AA8;
+  margin: 0;
+  padding: 0;
+}
+
+/*@media screen and (max-width: 1200px){*/
+/*  .card__text{*/
+/*    text-align: center;*/
+/*  }*/
+/*}*/

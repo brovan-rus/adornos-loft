@@ -1,0 +1,6 @@
+.ending{
+  background-color: #787580;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

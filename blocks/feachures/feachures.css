@@ -1,0 +1,10 @@
+.feachures {
+  max-width: 1280px;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  align-items: center;
+  width: calc(100vw - 150px);
+  padding: 0;
+  margin: 0 0 52px 0;
+}
