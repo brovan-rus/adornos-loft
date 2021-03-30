@@ -1,0 +1,10 @@
+.heading__subtitle{
+  z-index: 2;
+  font-family: 'Prata', 'Arial', 'Helvetica', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 36px;
+  letter-spacing: 0.15px;
+  color: #000000;
+}

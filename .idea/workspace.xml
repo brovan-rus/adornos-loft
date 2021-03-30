@@ -2,27 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="36b00439-d27d-4b4c-800a-1bbdfade0e89" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.editorconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.nojekyll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blocks/header/__logo/header__logo.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blocks/header/header.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blocks/page/__header/__nav/header__nav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blocks/page/__header/__nav/header__nav.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blocks/page/__header/page__header.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blocks/page/page.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/loft-logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/fonts/fonts.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/fonts/prata-v13-latin_cyrillic-regular.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/fonts/prata-v13-latin_cyrillic-regular.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/fonts/prata-v13-latin_cyrillic-regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/fonts/prata-v13-latin_cyrillic-regular.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/fonts/prata-v13-latin_cyrillic-regular.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/normalize.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/description/__text/description__text.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/description/__titile/description__title.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/description/description.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/gallery/__image/gallery__image.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/gallery/gallery.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/header/__link-list/header__link-list.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/header/__link/header__link.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/heading/__booking-button/heading__booking-button.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/heading/__subtitle/heading__subtitle.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/heading/__title/heading__title.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/heading/__video-container/heading__video-container.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/heading/__video/heading__video.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/heading/heading.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/intro/intro.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/main/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/page/__description/page__description.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/page/__gallery/page__gallery.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/page/__heading/page__heading.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/page/__intro/page__intro.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blocks/page/__header/__nav/header__nav" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/description/__list/description__list.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blocks/page/__header/__nav/header__nav.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/header/__nav/header__nav.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blocks/page/__header/page__header.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/page/__header/page__header.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blocks/page/page.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/page/page.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,14 +46,21 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../russian-travel/pages/index.css" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../russian-travel/index.html" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="reference.idesettings.emmet.xml" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ASUS\dev\adornos-loft\blocks\page\__heading" />
+      <recent name="C:\Users\ASUS\dev\adornos-loft\blocks\header" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/adornos-loft/index.html" useBuiltInWebServerPort="true">
@@ -70,7 +82,9 @@
       <updated>1616965519007</updated>
       <workItem from="1616965520675" duration="68000" />
       <workItem from="1616965714890" duration="1491000" />
-      <workItem from="1616967319783" duration="3538000" />
+      <workItem from="1616967319783" duration="5786000" />
+      <workItem from="1617011096054" duration="5000" />
+      <workItem from="1617031897144" duration="31979000" />
     </task>
     <servers />
   </component>
@@ -87,5 +101,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>

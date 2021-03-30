@@ -1,0 +1,9 @@
+.heading {
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-items: flex-start;
+  max-width: 674px;
+
+}

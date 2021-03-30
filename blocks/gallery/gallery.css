@@ -1,0 +1,8 @@
+.gallery {
+  max-width: calc(100vw - 96px);
+  display: grid;
+  align-self: center;
+  grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
+  grid-template-rows: repeat(auto-fit,  minmax(213px, 1fr));
+  gap: calc(6px + 100vw / 128);
+}

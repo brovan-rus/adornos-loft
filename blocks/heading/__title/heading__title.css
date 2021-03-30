@@ -1,0 +1,12 @@
+.heading__title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 80px;
+  line-height: 90px;
+  letter-spacing: -2px;
+  color: #34313D;
+  margin: 0;
+  font-family: 'Prata', 'Arial', 'Helvetica', sans-serif;
+  text-align: left;
+  z-index: 2;
+}
