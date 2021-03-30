@@ -2,44 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="36b00439-d27d-4b4c-800a-1bbdfade0e89" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/blocks/booking-button/_place/booking-button_place_ending.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blocks/booking-button/_place/booking-button_place_footer.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blocks/booking-button/booking-button.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blocks/card/__image-container/card__image-container.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blocks/content/__feachures/content__feachures.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blocks/ending/__titile/ending__title.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blocks/ending/ending.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blocks/feachures/__cards/feachures__cards.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blocks/feachures/__subtitle/feachures__subtitle.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blocks/feachures/__title/feachures__title.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blocks/feachures/feachures.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blocks/footer/footer.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blocks/link/_place/link_place_footer.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blocks/link/_place/link_place_header.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blocks/logo/_place/logo_place_footer.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blocks/nav/_place/nav_place_footer.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blocks/page/__content/page__content.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blocks/page/__footer/page__footer.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blocks/gallery/gallery.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/gallery/gallery.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blocks/header/__link-list/header__link-list.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/link-list/link-list.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blocks/header/__link/header__link.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/link/link.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blocks/header/__logo/header__logo.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/logo/logo.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blocks/header/__nav/header__nav.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/nav/nav.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blocks/main/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/content/content.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blocks/page/__description/page__description.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/content/__description/content__description.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blocks/page/__gallery/page__gallery.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/content/__gallery/content__gallery.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blocks/page/__header/page__header.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/page/__header/page__header.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blocks/page/__heading/page__heading.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/content/__heading/content__heading.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blocks/page/__intro/page__intro.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/content/__intro/content__intro.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Adornos1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/Adornos1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Adornos2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/Adornos2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Adornos3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/Adornos3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Adornos4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/Adornos4.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Adornos5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/Adornos5.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/normalize.css" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/normalize.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,7 +74,7 @@
       <workItem from="1616967319783" duration="5786000" />
       <workItem from="1617011096054" duration="5000" />
       <workItem from="1617031897144" duration="32052000" />
-      <workItem from="1617112813481" duration="23297000" />
+      <workItem from="1617112813481" duration="23845000" />
     </task>
     <servers />
   </component>
