@@ -3,4 +3,12 @@
   flex-direction: column;
   max-width: 708px;
   z-index: 2;
+  padding-left: 80px;
+
+}
+
+@media screen and (max-width: 1023px){
+  .description{
+    display: none;
+  }
 }

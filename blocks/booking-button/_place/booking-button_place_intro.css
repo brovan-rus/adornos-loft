@@ -1,0 +1,19 @@
+.booking-button_place_intro{
+  width: 350px;
+}
+
+@media screen and (min-width: 1023px){
+  .booking-button_place_intro:hover{
+    background-color: red;
+    width: 450px;
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 1023px){
+  .booking-button_place_intro{
+    width: 85%;
+  }
+}
+
+

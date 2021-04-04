@@ -3,9 +3,21 @@
   font-family: 'Prata', 'Arial', 'Helvetica', sans-serif;
   font-style: normal;
   font-size: 54px;
-  line-height: 63px;
+  line-height: 1.07;
   color: #000000;
   margin: 0 0 40px 0;
+}
 
+@media screen and (min-width: 321px) and (max-width: 767px) {
+  .description__title {
+    font-size: calc(11 * 100vw / 224 + 16.29px);
+    line-height: calc(23 * 100vw / 448 + 18.57px);
+  }
+}
 
+@media screen and (max-width: 320px) {
+  .description__title {
+    font-size: 32px;
+    line-height: 35px;
+  }
 }

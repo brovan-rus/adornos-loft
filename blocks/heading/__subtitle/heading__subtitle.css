@@ -3,8 +3,33 @@
   font-family: 'Prata', 'Arial', 'Helvetica', sans-serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 22px;
-  line-height: 36px;
+  font-size: calc(16.6px + 4 * 100vw / 1065);
+  line-height: calc(27.9px + 2 * 100vw / 355);
   letter-spacing: 0.15px;
   color: #000000;
+  margin: 0 0 20px 0;
+}
+
+
+@media screen and (min-width: 1440px){
+  .heading__subtitle{
+    font-size: 22px;
+    line-height: 36px;
+    letter-spacing: 0.15px;
+  }
+}
+
+@media screen and (max-width: 1023px){
+  .heading__subtitle{
+    text-align: center;
+    margin-bottom: 32px;
+  }
+}
+
+@media screen and (max-width: 375px){
+  .heading__subtitle{
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: 0.123px;
+  }
 }

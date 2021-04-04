@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="36b00439-d27d-4b4c-800a-1bbdfade0e89" name="Default Changelist" comment="">
+<<<<<<< Updated upstream
       <change afterPath="$PROJECT_DIR$/blocks/booking-button/_place/booking-button_place_ending.css" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/blocks/booking-button/_place/booking-button_place_footer.css" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/blocks/booking-button/booking-button.css" afterDir="false" />
@@ -40,6 +41,9 @@
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vendor/normalize.css" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/normalize.css" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+>>>>>>> Stashed changes
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,7 +115,12 @@
       <workItem from="1616967319783" duration="5786000" />
       <workItem from="1617011096054" duration="5000" />
       <workItem from="1617031897144" duration="32052000" />
+<<<<<<< Updated upstream
       <workItem from="1617112813481" duration="23297000" />
+=======
+      <workItem from="1617112813481" duration="24749000" />
+      <workItem from="1617558585215" duration="1374000" />
+>>>>>>> Stashed changes
     </task>
     <servers />
   </component>

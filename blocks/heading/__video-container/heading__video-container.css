@@ -19,3 +19,8 @@
 }
 
 
+@media screen and (max-width:1023px) {
+  .heading__video-container {
+    display: none;
+  }
+}

@@ -37,7 +37,7 @@
 @import url('../blocks/content/content.css');
 @import url('../blocks/feachures/__cards/feachures__cards.css');
 @import url('../blocks/booking-button/booking-button.css');
-@import url('../blocks/booking-button/_place/booking-button_place_ending.css');
+@import url('../blocks/booking-button/_place/booking-button_place_intro.css');
 @import url('../blocks/booking-button/_place/booking-button_place_footer.css');
 @import url('../blocks/card/__image-container/card__image-container.css');
 @import url('../blocks/page/__content/page__content.css');
@@ -47,3 +47,4 @@
 @import url('../blocks/page/__footer/page__footer.css');
 @import url('../blocks/link/_place/link_place_footer.css');
 @import url('../blocks/link/_place/link_place_header.css');
+@import url('../blocks/logo/_place/logo_place_header.css');
