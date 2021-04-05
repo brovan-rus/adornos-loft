@@ -136,5 +136,35 @@
       </nav>
     </footer>
   </div>
+
+  <div class="popup popup_content_booking-form popup_opened">
+    <div class="popup__container popup__container_content_form">
+      <button type="button" class="popup__close-button"></button>
+      <h2 class="popup__title">Забронировать лофт</h2>
+      <form name="profile" action="#" class="form" novalidate>
+        <label for="userName" class="form__input-title">Представьтесь пожалуйста</label>
+        <input class="form__input form__input_info_name" autocomplete="off" id="userName" required
+               minlength="2" maxlength="40" type="text" name="userName" placeholder="Как к Вам можно обращаться?">
+        <span class="form__input-error profile-name-input-error"></span>
+        <label for="phoneNumber" class="form__input-title">Ваш контактный номер телефона</label>
+        <input class="form__input form__input_info_value" autocomplete="off" id="phoneNumber" required
+               minlength="7" maxlength="16" type="tel" name="phoneNumber" placeholder="Мы перезвоним Вам в ближайшее время">
+        <span class="form__input-error profile-job-input-error"></span>
+        <label for="bookingDate" class="form__input-title">На какую дату Вы хотели бы сделать бронь?</label>
+        <input class="form__input form__input_info_value" autocomplete="off" id="bookingDate" required
+               minlength="7" maxlength="16" type="date" name="bookingDate">
+        <span class="form__input-error profile-job-input-error"></span>
+        <button class="booking-button booking-button_place_form" type="submit">Забронировать</button>
+      </form>
+    </div>
+  </div>
+
+  <div class="popup popup_content_photo">
+    <div class="popup__container popup__container_content_photo">
+      <button type="button" class="popup__close-button"></button>
+      <img src="<%=require('./images/kazan.jpg')%>" alt="Казань" class="popup__photo">
+    </div>
+  </div>
+
 </body>
 </html>
