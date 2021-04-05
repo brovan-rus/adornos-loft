@@ -58,3 +58,4 @@
 @import url('../blocks/link-list/_device/link-list_device_mobile.css');
 @import url('../blocks/link-list/__elemennt/_device/link-list__element_device_mobile.css');
 @import url('../blocks/nav/_device/nav_device_mobile.css');
+@import url('../blocks/nav/__phone-link/nav__phone-link.css');

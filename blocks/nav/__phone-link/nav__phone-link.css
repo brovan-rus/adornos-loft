@@ -1,3 +1,20 @@
 .nav__phone-link {
+  box-shadow: 5px 5px 5px -5px rgba(34, 60, 80, 0.6);
+  padding: 15px 15px;
+  box-sizing: border-box;
+  width: 85%;
+  font-family: 'Prata', 'Arial', 'Helvetica', sans-serif;
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: 0.10px;
+  background-color: #EF4843;
+  z-index: 2;
+  color: white;
+  border-radius: 28px;
+  height: 75px;
+  border: 0;
+  transition: all 0.7s ease-in;
+  text-align: center;
+  margin: auto;
 
 }
