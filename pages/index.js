@@ -1,7 +1,11 @@
 const hamburger = document.querySelector('.hamburger');
-hamburger.addEventListener('click', () => {
+const mobileMenu = document.querySelector('.nav_device_mobile')
+hamburger.addEventListener('click', handleHamburgerMenu);
+
+function handleHamburgerMenu() {
   hamburger.classList.toggle('hamburger_active');
-});
+  mobileMenu.classList.toggle('nav_device_mobile_active');
+}
 
 const bookingButtonIntro = document.querySelector('.booking-button_place_intro')
 const introText = document.querySelectorAll('.intro_content_text');
