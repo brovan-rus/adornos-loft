@@ -1,0 +1,9 @@
+.link-list_device_desktop {
+
+}
+
+@media screen and (max-width: 720px){
+  .link-list_device_desktop {
+    display: none;
+  }
+}

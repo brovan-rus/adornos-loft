@@ -1,3 +1,9 @@
 .nav_place_footer {
   margin-right: 30px;
 }
+
+@media screen and (max-width: 1023px) {
+  .nav_place_footer {
+    margin-right: 0;
+  }
+}

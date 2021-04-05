@@ -6,10 +6,10 @@
   align-self: start;
 }
 
-/*@media screen and (max-width: 1200px){*/
-/*  .card{*/
-/*    display: flex;*/
-/*    flex-direction: column;*/
-/*    align-content: center;*/
-/*  }*/
-/*}*/
+@media screen and (max-width: 1024px){
+  .card{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+  }
+}

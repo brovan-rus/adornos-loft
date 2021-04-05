@@ -1,4 +1,4 @@
-.heading__video {
+.heading__image {
   align-self: center;
   width: 100%;
   height: 100%;
@@ -7,8 +7,8 @@
   border: 0;
 }
 
-@media screen and (max-width: 1024px){
-  .heading__video {
+@media screen and (min-width: 1023px) {
+  .heading__image {
     display: none;
   }
 }

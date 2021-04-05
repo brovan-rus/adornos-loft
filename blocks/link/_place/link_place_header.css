@@ -1,3 +1,10 @@
 .link_place_header:hover {
   color: #000;
 }
+
+@media screen and (max-width: 1023px){
+  .link_place_header{
+    color: #000
+  }
+}
+
