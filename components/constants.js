@@ -1,33 +1,5 @@
-// Данный в задании массив значений для карточек
-export const initialCards = [
-  {
-    name: 'Архыз',
-    link: 'https://pictures.s3.yandex.net/frontend-developer/cards-compressed/arkhyz.jpg'
-  },
-  {
-    name: 'Челябинская область',
-    link: 'https://pictures.s3.yandex.net/frontend-developer/cards-compressed/chelyabinsk-oblast.jpg'
-  },
-  {
-    name: 'Иваново',
-    link: 'https://pictures.s3.yandex.net/frontend-developer/cards-compressed/ivanovo.jpg'
-  },
-  {
-    name: 'Камчатка',
-    link: 'https://pictures.s3.yandex.net/frontend-developer/cards-compressed/kamchatka.jpg'
-  },
-  {
-    name: 'Холмогорский район',
-    link: 'https://pictures.s3.yandex.net/frontend-developer/cards-compressed/kholmogorsky-rayon.jpg'
-  },
-  {
-    name: 'Байкал',
-    link: 'https://pictures.s3.yandex.net/frontend-developer/cards-compressed/baikal.jpg'
-  }
-];
-
+// Список адресо картинок
 export const imagesURLList = ['./images/adornos1.jpg', './images/adornos2.jpg', './images/adornos3.jpg', './images/adornos4.jpg', './images/adornos5.jpg', './images/adornos6.jpg', './images/adornos7.jpg', './images/adornos8.jpg', './images/adornos9.jpg', './images/adornos10.jpg', './images/adornos11.jpg', './images/adornos12.jpg']
-
 
 // Изначальные значения для настройки валидации форм
 export const validationValues = {
@@ -40,30 +12,26 @@ export const validationValues = {
 };
 
 // Объявление селекторов документа
-
-export const templateSelector = '#card';
-export const cardListContainerSelector = '.cards__list';
-export const userNameSelector = '.profile__name';
-export const userJobSelector = '.profile__job';
-export const popupProfileEditSelector = '.popup_content_profile-edit';
-export const popupCardAddSelector = '.popup_content_card-add';
-export const popupImageSelector = '.popup_content_photo';
+export const bookingForm = document.forms.booking;
+export const gallerySection = document.querySelector('.gallery');
+export const popupWithFeachureCardMarkup = document.querySelector('.popup_content_feachure-card');
+export const feachureCardPopupTitle = popupWithFeachureCardMarkup.querySelector('.popup__title');
+export const feachureCardPopupImage = popupWithFeachureCardMarkup.querySelector('.popup__image');
+export const feachureCardPopupText = popupWithFeachureCardMarkup.querySelector('.popup__text');
+export const popupWithImageMarkup = document.querySelector('.popup_content_photo');
+export const popupImage = popupWithImageMarkup.querySelector('.popup__photo');
+export const feachureCardImages = document.querySelectorAll('.card__image');
 
 // Объявляем элементы документа
-export const profileEditButton = document.querySelector('.profile__edit-button');
-export const cardAddButton = document.querySelector('.profile__plus-button');
-
-// Объявляем формы документа
-const forms = document.forms;
-
+export const galleryButton = document.querySelector('.gallery__button');
 
 // Объявление кнопки для закрытия попапа
 export const closeKey = 'Escape';
-
-
 export const hamburger = document.querySelector('.hamburger');
 export const mobileMenu = document.querySelector('.nav_device_mobile')
 export const bookingButtonIntro = document.querySelector('.booking-button_place_intro')
 export const introText = document.querySelectorAll('.intro_content_text');
 export const bookingButtons = document.querySelectorAll('.booking-button');
-export const popupWithForm = document.querySelector('.popup_content_booking-form')
+
+// Запрос на разрешение для обеспечения функционирования частичного заполнения галереи изображениями
+export const mediaQueryList = window.matchMedia("only screen and (min-width: 649px");

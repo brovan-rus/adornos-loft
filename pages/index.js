@@ -1,40 +1,21 @@
-import {hamburger, imagesURLList, validationValues, mobileMenu, bookingButtonIntro, bookingButtons, introText} from '../components/constants.js';
+import {hamburger, mediaQueryList, feachureCardImages, galleryButton, feachureCardPopupImage, popupImage, feachureCardPopupText, feachureCardPopupTitle, bookingForm, gallerySection, imagesURLList, validationValues, mobileMenu, bookingButtonIntro, bookingButtons, introText} from '../components/constants.js';
 import Popup from '../components/popup.js';
-
 import FormValidator from '../components/formValidator.js';
-const bookingForm = document.forms.booking;
+// Объявление счётчика кликов на кнопку в галерею.
+let clickCounter = 0;
 
+// Экземляр класса для валидации формы
 const bookingFormValidator = new FormValidator(validationValues, bookingForm);
 bookingFormValidator.enableValidation();
 
-console.log(bookingForm);
-const popupWithFeachureCardMarkup = document.querySelector('.popup_content_feachure-card');
-const feachureCardPopupTitle = popupWithFeachureCardMarkup.querySelector('.popup__title');
-const feachureCardPopupImage = popupWithFeachureCardMarkup.querySelector('.popup__image');
-const feachureCardPopupText = popupWithFeachureCardMarkup.querySelector('.popup__text');
 
-const popupWithImageMarkup = document.querySelector('.popup_content_photo');
-const popupImage = popupWithImageMarkup.querySelector('.popup__photo');
-
-const mediaQueryList = window.matchMedia("only screen and (min-width: 649px");
-console.log(mediaQueryList);
-
-const galleryButton = document.querySelector('.gallery__button');
-
+// Создаём экзмемляры классов с модальными окнами
 const popupWithForm = new Popup('.popup_content_booking-form');
 popupWithForm.setEventListeners();
-
 const popupWithImage = new Popup ('.popup_content_photo');
 popupWithImage.setEventListeners();
-
 const popupWithFeachureCard = new Popup('.popup_content_feachure-card');
 popupWithFeachureCard.setEventListeners();
-
-
-const feachureCardImages = document.querySelectorAll('.card__image');
-console.log(feachureCardImages);
-Array.from(feachureCardImages).forEach((element) => {
-  element.addEventListener('click', handleFeachurePopupOpen)});
 
 function handleFeachurePopupOpen(evt) {
   const currentCardTitle = evt.path[1].querySelector('.card__title').textContent;
@@ -46,14 +27,6 @@ function handleFeachurePopupOpen(evt) {
   feachureCardPopupImage.alt = currentCardTitle
   popupWithFeachureCard.open();
 }
-
-
-hamburger.addEventListener('click', handleHamburgerMenu);
-
-
-Array.from(bookingButtons).forEach((element) => {
-  element.addEventListener('click', handleOpenPopupWithForm);
-})
 
 function handleHamburgerMenu() {
   hamburger.classList.toggle('hamburger_active');
@@ -67,6 +40,12 @@ function handleOpenPopupWithForm() {
   bookingFormValidator.clearValidation();
   popupWithForm.open();
 }
+
+function handleSubmitForm(evt){
+  evt.preventDefault();
+  popupWithForm.close();
+}
+
 
 function makeGalleryItem(url, title='Интерьер лофта Адорнос'){
   const galleryItem = document.createElement('img');
@@ -82,18 +61,6 @@ function handleOpenPopupWithImage(evt) {
   popupWithImage.open();
 }
 
-const gallerySection = document.querySelector('.gallery');
-let clickCounter = 0;
-
-if (mediaQueryList.matches) {
-  imagesURLList.forEach((element) => {
-    gallerySection.append(makeGalleryItem(element));
-  })}
-else {
-  addPartOfGallery(clickCounter)
-  }
-
-
 function addPartOfGallery(clickCounter){
   let currentGalleryLength = 2;
   let galleryImagesAdded = 0;
@@ -105,8 +72,6 @@ function addPartOfGallery(clickCounter){
     gallerySection.append(makeGalleryItem(imagesURLList[i]));
   }
 }
-
-galleryButton.addEventListener('click', handleGalleryButton);
 
 function handleGalleryButton() {
   if ((clickCounter + 2) * 3 < imagesURLList.length) {
@@ -120,13 +85,28 @@ function handleGalleryButton() {
   }
 }
 
-
-console.log(makeGalleryItem(imagesURLList[1]));
-
+//Добавление слушателей
+galleryButton.addEventListener('click', handleGalleryButton);
+hamburger.addEventListener('click', handleHamburgerMenu);
+Array.from(feachureCardImages).forEach((element) => {
+  element.addEventListener('click', handleFeachurePopupOpen)});
+Array.from(bookingButtons).forEach((element) => {
+  element.addEventListener('click', handleOpenPopupWithForm);
+})
+bookingForm.addEventListener('submit', handleSubmitForm);
+// Убираем текст с видео при наведении на клавишу "Забронировать"
 bookingButtonIntro.addEventListener('mouseover', () => Array.from(introText).forEach((element) => {
   element.setAttribute('style', 'color:transparent');
 }))
-
 bookingButtonIntro.addEventListener('mouseout', () => Array.from(introText).forEach((element) => {
   element.removeAttribute('style', 'color:transparent');
 }))
+
+// Заполнение галлереи картинками из массива
+if (mediaQueryList.matches) {
+  imagesURLList.forEach((element) => {
+    gallerySection.append(makeGalleryItem(element));
+  })}
+else {
+  addPartOfGallery(clickCounter)
+}
