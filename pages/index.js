@@ -1,6 +1,13 @@
-import {hamburger, imagesURLList, mobileMenu, bookingButtonIntro, bookingButtons, introText} from '../components/constants.js';
+import {hamburger, imagesURLList, validationValues, mobileMenu, bookingButtonIntro, bookingButtons, introText} from '../components/constants.js';
 import Popup from '../components/popup.js';
 
+import FormValidator from '../components/formValidator.js';
+const bookingForm = document.forms.booking;
+
+const bookingFormValidator = new FormValidator(validationValues, bookingForm);
+bookingFormValidator.enableValidation();
+
+console.log(bookingForm);
 const popupWithFeachureCardMarkup = document.querySelector('.popup_content_feachure-card');
 const feachureCardPopupTitle = popupWithFeachureCardMarkup.querySelector('.popup__title');
 const feachureCardPopupImage = popupWithFeachureCardMarkup.querySelector('.popup__image');
@@ -13,8 +20,6 @@ const mediaQueryList = window.matchMedia("only screen and (min-width: 649px");
 console.log(mediaQueryList);
 
 const galleryButton = document.querySelector('.gallery__button');
-
-
 
 const popupWithForm = new Popup('.popup_content_booking-form');
 popupWithForm.setEventListeners();
@@ -56,6 +61,10 @@ function handleHamburgerMenu() {
 }
 
 function handleOpenPopupWithForm() {
+  bookingForm.userName.value = '';
+  bookingForm.phoneNumber.value = '';
+  bookingForm.bookingDate.value = 0;
+  bookingFormValidator.clearValidation();
   popupWithForm.open();
 }
 

@@ -145,19 +145,19 @@
     <div class="popup__container popup__container_content_form">
       <button type="button" class="popup__close-button"></button>
       <h2 class="popup__title">Забронировать лофт</h2>
-      <form name="profile" action="#" class="form" novalidate>
-        <label for="userName" class="form__input-title">Представьтесь пожалуйста</label>
-        <input class="form__input form__input_info_name" autocomplete="off" id="userName" required
+      <form name="booking" action="#" class="form" novalidate>
+        <label for="user-name-input" class="form__input-title">Представьтесь пожалуйста</label>
+        <input class="form__input form__input_info_name" autocomplete="off" id="user-name-input" required
                minlength="2" maxlength="40" type="text" name="userName" placeholder="Как к Вам можно обращаться?">
-        <span class="form__input-error profile-name-input-error"></span>
-        <label for="phoneNumber" class="form__input-title">Ваш контактный номер телефона</label>
-        <input class="form__input form__input_info_value" autocomplete="off" id="phoneNumber" required
+        <span class="form__input-error user-name-input-error"></span>
+        <label for="phone-number-input" class="form__input-title">Ваш контактный номер телефона</label>
+        <input class="form__input form__input_info_value" autocomplete="off" id="phone-number-input" required
                minlength="7" maxlength="16" type="tel" name="phoneNumber" placeholder="Мы перезвоним Вам в ближайшее время">
-        <span class="form__input-error profile-job-input-error"></span>
-        <label for="bookingDate" class="form__input-title">На какую дату Вы хотели бы сделать бронь?</label>
-        <input class="form__input form__input_info_value" autocomplete="off" id="bookingDate" required
+        <span class="form__input-error phone-number-input-error"></span>
+        <label for="date-input" class="form__input-title">На какую дату Вы хотели бы сделать бронь?</label>
+        <input class="form__input form__input_info_value" autocomplete="off" id="date-input" required
                minlength="7" maxlength="16" type="date" name="bookingDate">
-        <span class="form__input-error profile-job-input-error"></span>
+        <span class="form__input-error date-input-error"></span>
         <button class="form__submit-button" type="submit">Забронировать</button>
       </form>
     </div>

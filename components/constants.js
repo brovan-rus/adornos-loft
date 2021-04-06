@@ -55,9 +55,7 @@ export const cardAddButton = document.querySelector('.profile__plus-button');
 
 // Объявляем формы документа
 const forms = document.forms;
-const profileForm = forms.profile;
-export const profileNameInput = profileForm.elements.userName;
-export const profileJobInput = profileForm.elements.userJob;
+
 
 // Объявление кнопки для закрытия попапа
 export const closeKey = 'Escape';
