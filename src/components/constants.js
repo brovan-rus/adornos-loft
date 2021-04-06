@@ -1,5 +1,21 @@
 // Список адресо картинок
-export const imagesURLList = ['./images/adornos1.jpg', './images/adornos2.jpg', './images/adornos3.jpg', './images/adornos4.jpg', './images/adornos5.jpg', './images/adornos6.jpg', './images/adornos7.jpg', './images/adornos8.jpg', './images/adornos9.jpg', './images/adornos10.jpg', './images/adornos11.jpg', './images/adornos12.jpg']
+// export const imagesURLList = [adornos1.jpg, '../images/adornos2.jpg', '../images/adornos3.jpg', '../images/adornos4.jpg', '../images/adornos5.jpg', '../images/adornos6.jpg', '../images/adornos7.jpg', '../images/adornos8.jpg', '../images/adornos9.jpg', '../images/adornos10.jpg', '../images/adornos11.jpg', '../images/adornos12.jpg']
+
+
+const adornos1 = new URL('../images/adornos1.jpg', import.meta.url);
+const adornos2 = new URL('../images/adornos2.jpg', import.meta.url);
+const adornos3 = new URL('../images/adornos3.jpg', import.meta.url);
+const adornos4 = new URL('../images/adornos4.jpg', import.meta.url);
+const adornos5 = new URL('../images/adornos5.jpg', import.meta.url);
+const adornos6 = new URL('../images/adornos6.jpg', import.meta.url);
+const adornos7 = new URL('../images/adornos7.jpg', import.meta.url);
+const adornos8 = new URL('../images/adornos8.jpg', import.meta.url);
+const adornos9 = new URL('../images/adornos9.jpg', import.meta.url);
+const adornos10 = new URL('../images/adornos10.jpg', import.meta.url);
+const adornos11 = new URL('../images/adornos11.jpg', import.meta.url);
+const adornos12 = new URL('../images/adornos12.jpg', import.meta.url);
+
+export const imagesURLList = [adornos1, adornos2, adornos3, adornos4, adornos5, adornos6, adornos7, adornos8, adornos9, adornos10, adornos11, adornos12];
 
 // Изначальные значения для настройки валидации форм
 export const validationValues = {

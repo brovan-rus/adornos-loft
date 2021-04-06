@@ -1,6 +1,7 @@
-import {hamburger, mediaQueryList, feachureCardImages, galleryButton, feachureCardPopupImage, popupImage, feachureCardPopupText, feachureCardPopupTitle, bookingForm, gallerySection, imagesURLList, validationValues, mobileMenu, bookingButtonIntro, bookingButtons, introText} from '../components/constants.js';
-import Popup from '../components/popup.js';
-import FormValidator from '../components/formValidator.js';
+import {hamburger, mediaQueryList, feachureCardImages, galleryButton, feachureCardPopupImage, popupImage, feachureCardPopupText, feachureCardPopupTitle, bookingForm, gallerySection, imagesURLList, validationValues, mobileMenu, bookingButtonIntro, bookingButtons, introText} from './components/constants.js';
+import Popup from './components/popup.js';
+import FormValidator from './components/formValidator.js';
+import './pages/index.css';
 // Объявление счётчика кликов на кнопку в галерею.
 let clickCounter = 0;
 

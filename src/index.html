@@ -6,7 +6,6 @@
         content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Adornos Loft</title>
-  <link rel="stylesheet" href="./pages/index.css">
 
 </head>
 
@@ -49,9 +48,9 @@
           <button class="booking-button booking-button_place_intro">Забронировать сейчас</button>
           <div class="heading__video-container">
             <video class="heading__video" loop autoplay playsinline muted>
-              <source src="./images/heading-video.mp4" type="video/mp4">
+              <source src="<%=require('./images/heading-video.mp4')%>" type="video/mp4">
             </video>
-            <img src="./images/adornos3.jpg" class="heading__image" alt="Фоновая картинка">
+            <img src="<%=require('./images/adornos3.jpg')%>" class="heading__image" alt="Фоновая картинка">
           </div>
         </section>
         <section class="description content__description">
@@ -91,33 +90,33 @@
         <p class="feachures__subtitle">На 180 квадратных метрах, оформленных в стиле «Лофт», можно реализовать любые креативные идеи.</p>
         <ul class="feachures__cards">
           <li class="card">
-            <img class="card__image" src="./images/dance.jpg" alt="Иллюстрация, танцующая пара">
+            <img class="card__image" src="<%=require('./images/dance.jpg')%>" alt="Иллюстрация, танцующая пара">
             <div class="card__image-text">Забронировать сейчас</div>
             <h3 class="card__title">Танцевальные мероприятия</h3>
             <p class="card__text">Наш лофт – универсальное премиум-пространство для проведения Вашего праздника. Мы предлагаем доступные цены на аренду помещения, гибкую систему скидок нашим постоянным клиентам, дополнительные услуги (организация мероприятий под ключ, услуги профессионального фотографа, оператора, ведущего). Наш лофт – универсальное премиум-пространство для проведения Вашего праздника. Мы предлагаем доступные цены на аренду помещения, гибкую систему скидок нашим постоянным клиентам, дополнительные услуги (организация мероприятий под ключ, услуги профессионального фотографа, оператора, ведущего).</p>
           </li>
           <li class="card">
-            <img class="card__image" src="./images/children.jpg" alt="Веселящиеся дети">
+            <img class="card__image" src="<%=require('./images/children.jpg')%>" alt="Веселящиеся дети">
             <h3 class="card__title">Детские праздники</h3>
             <p class="card__text">Improve brand awareness and content discoverability through customizable links, supercharging audience engagement.</p>
           </li>
           <li class="card">
-            <img class="card__image" src="./images/photosession.jpg" alt="Изображение старого фотоаппарата">
+            <img class="card__image" src="<%=require('./images/photosession.jpg')%>" alt="Изображение старого фотоаппарата">
             <h3 class="card__title">Фотосессии</h3>
             <p class="card__text">Improve brand awareness and content discoverability through customizable links, supercharging audience engagement.</p>
           </li>
           <li class="card">
-            <img class="card__image" src="images/birthday.jpg" alt="Торт со свечами">
+            <img class="card__image" src="<%=require('./images/birthday.jpg')%>" alt="Торт со свечами">
             <h3 class="card__title"> Дни рождения</h3>
             <p class="card__text">Boost your brand recognition with each click. Generic links don’t mean a thing. Branded links help instil confidence in your content.</p>
           </li>
           <li class="card">
-            <img class="card__image" src="images/wedding.jpg" alt="Пара держится за руки">
+            <img class="card__image" src="<%=require('./images/wedding.jpg')%>" alt="Пара держится за руки">
             <h3 class="card__title">Свадьбы</h3>
             <p class="card__text">Gain insights into who is clicking your links. Knowing when and where people engage with your content helps inform better decisions.</p>
           </li>
           <li class="card">
-            <img class="card__image" src="images/training.jpg" alt="Люди за ноутбуками в офисе">
+            <img class="card__image" src="<%=require('./images/training.jpg')%>" alt="Люди за ноутбуками в офисе">
             <h3 class="card__title">Тренинги</h3>
             <p class="card__text">Gain insights into who is clicking your links. Knowing when and where people engage with your content helps inform better decisions.</p>
           </li>
@@ -166,7 +165,7 @@
   <div class="popup popup_content_photo">
     <div class="popup__container popup__container_content_photo">
       <button type="button" class="popup__close-button"></button>
-      <img src="./images/adornos3.jpg" alt="Казань" class="popup__photo">
+      <img src="imagesdornos3.jpg" alt="Казань" class="popup__photo">
     </div>
   </div>
 
@@ -174,20 +173,19 @@
     <div class="popup__container popup__container_content_feachure-card">
       <button type="button" class="popup__close-button"></button>
       <h2 class="popup__title popup__title_content_feachure-card">Танцевальные мероприятия</h2>
-      <img class="popup__image" src="./images/dance.jpg" alt="Танцевальные мероприятия, фото">
+      <img class="popup__image" src="imagesance.jpg" alt="Танцевальные мероприятия, фото">
       <p class="popup__text">Наш лофт – универсальное премиум-пространство для проведения Вашего праздника. Мы предлагаем доступные цены на аренду помещения, гибкую систему скидок нашим постоянным клиентам, дополнительные услуги (организация мероприятий под ключ, услуги профессионального фотографа, оператора, ведущего).</p>
     </div>
   </div>
 
   <template id="card">
     <li class="card">
-      <img class="card__image" src="./images/dance.jpg" alt="Иллюстрация, танцующая пара">
+      <img class="card__image" src="imagesance.jpg" alt="Иллюстрация, танцующая пара">
       <div class="card__image-text">Забронировать сейчас</div>
       <h3 class="card__title">Танцевальные мероприятия</h3>
       <p class="card__text">Boost your brand recognition with each click. Generic links don’t mean a thing. Branded links help instil confidence in your content.</p>
     </li>
   </template>
 
-  <script type="module" rel="script" src="./pages/index.js"> </script>
 </body>
 </html>
