@@ -1,3 +1,9 @@
 .logo_place_footer{
   margin-left: 30px;
 }
+
+@media screen and (max-width: 1023px){
+  .logo_place_footer {
+    display: none;
+  }
+}

@@ -7,10 +7,16 @@
   color: #9E9AA8;
   margin: 0;
   padding: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  /*white-space: nowrap;*/
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
 }
 
-/*@media screen and (max-width: 1200px){*/
-/*  .card__text{*/
-/*    text-align: center;*/
-/*  }*/
-/*}*/
+@media screen and (max-width: 1023px){
+  .card__text{
+    text-align: center;
+  }
+}

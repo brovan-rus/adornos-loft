@@ -6,3 +6,10 @@
   line-height: 163%;
   color: #000;
 }
+
+@media screen and (max-width: 1023px){
+  .description__text{
+    padding: 0 10px;
+    align-self: flex-start;
+  }
+}

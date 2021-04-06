@@ -1,0 +1,14 @@
+.booking-button_place_form {
+  width: 100%;
+}
+
+@media screen and (max-width: 600px){
+  .booking-button_place_form {
+    height: 50px;
+    width: 90%;
+    font-size: 18px;
+    line-height: 32px;
+    align-self: center;
+    justify-self: center;
+  }
+}

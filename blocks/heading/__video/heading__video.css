@@ -4,5 +4,11 @@
   height: 100%;
   position: relative;
   object-fit: cover;
+  border: 0;
 }
 
+@media screen and (max-width: 1024px){
+  .heading__video {
+    display: none;
+  }
+}

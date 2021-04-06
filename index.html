@@ -7,37 +7,57 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Adornos Loft</title>
   <link rel="stylesheet" href="./pages/index.css">
+
 </head>
 
 <body>
   <div class="page">
     <header class="header page__header">
-        <div class="logo"></div>
-      <nav class="nav">
-        <ul class="link-list">
-          <li class="header__link-list-element"><a class="link link_place_header" href="#" target="_self">Лофт</a></li>
-          <li class="header__link-list-element"><a class="link link_place_header" href="#" target="_self">Цены</a></li>
-          <li class="header__link-list-element"><a class="link link_place_header" href="#" target="_self">Контакты</a></li>
+      <div class="logo logo_place_header"> </div>
+      <div class="hamburger">
+        <span class="hamburger__line"></span>
+        <span class="hamburger__line"></span>
+        <span class="hamburger__line"></span>
+      </div>
+
+      <nav class="nav nav_place_header">
+        <ul class="link-list link-list_device_desktop">
+          <li><a class="link link_place_header" href="#" target="_self">Лофт</a></li>
+          <li><a class="link link_place_header" href="#" target="_self">Цены</a></li>
+          <li><a class="link link_place_header" href="#" target="_self">Контакты</a></li>
         </ul>
       </nav>
+
+      <nav class="nav nav_place_header nav_device_mobile">
+        <ul class="link-list link-list_device_mobile">
+          <li class="link-list__element_device_mobile"><a class="link link_place_header" href="#" target="_self">Лофт</a></li>
+          <li class="link-list__element_device_mobile"><a class="link link_place_header" href="#" target="_self">Цены</a></li>
+          <li class="link-list__element_device_mobile"><a class="link link_place_header" href="#" target="_self">Контакты</a></li>
+        </ul>
+        <a class="link" href="tel:+79250785909"><div class="nav__phone-link">Позвоните&nbsp;нам +7&nbsp;(925)&nbsp;978&nbsp;-&nbsp;85&nbsp;-&nbsp;09</div></a>
+      </nav>
+
     </header>
+
+
     <main class="content page__content">
       <div class="intro content__intro">
         <section class="heading content__heading">
-          <h1 class="heading__title">Премиум лофт в центре Москвы</h1>
-          <p class="heading__subtitle">Проведите свое незабываемое событие в современном
+          <h1 class="heading__title intro_content_text">Премиум лофт в центре Москвы</h1>
+          <p class="heading__subtitle intro_content_text">Проведите свое незабываемое событие в современном
             пространстве в центре города</p>
-          <button class="booking-button booking-button_place_header">Забронировать сейчас</button>
+          <button class="booking-button booking-button_place_intro">Забронировать сейчас</button>
           <div class="heading__video-container">
             <video class="heading__video" loop autoplay playsinline muted>
               <source src="./images/heading-video.mp4" type="video/mp4">
             </video>
+            <img src="./images/adornos3.jpg" class="heading__image" alt="Фоновая картинка">
           </div>
         </section>
         <section class="description content__description">
-          <h2 class="description__title">Зачем мне снимать лофт?</h2>
-          <p class="description__text">Стильное современное пространство для проведения любого незабываемого мероприятия. Наше помещение создано с учетом мельчайших деталей для того, чтобы Ваш праздник, семинар или дружеская встреча прошли на высшем уровне. Аренда лофта «Adornos» – это прекрасная возможность отметить памятную дату или важное событие в замечательном месте, где каждому приглашенному будет уютно и комфортно, где у каждого будут яркие локации для фото, где гости смогут весело и интересно провести время.</p>
-          <ul class="description__text description__list">
+          <h2 class="description__title intro_content_text">Зачем мне снимать лофт?</h2>
+          <p class="description__text intro_content_text">Стильное современное пространство для проведения любого незабываемого мероприятия. Наше помещение создано с учетом мельчайших деталей для того, чтобы Ваш праздник, семинар или дружеская встреча прошли на высшем уровне. Аренда лофта «Adornos» – это прекрасная возможность отметить памятную дату или важное событие в замечательном месте, где каждому приглашенному будет уютно и комфортно, где у каждого будут яркие локации для фото, где гости смогут весело и интересно провести время.</p>
+          <ul class="description__text description__list intro_content_text">
             <li>Общее пространство 185 квадратных метров</li>
             <li>Историческое здание XIX века</li>
             <li>Охраняемый паркинг</li>
@@ -48,29 +68,33 @@
       </div>
 
       <section class="gallery content__gallery">
-        <img src="./images/Adornos1.jpg" alt="" class="gallery__image">
-        <img src="./images/Adornos2.jpg" alt="" class="gallery__image">
-        <img src="./images/Adornos3.jpg" alt="" class="gallery__image">
-        <img src="./images/Adornos4.jpg" alt="" class="gallery__image">
-        <img src="./images/Adornos5.jpg" alt="" class="gallery__image">
-        <img src="./images/adornos6.jpg" alt="" class="gallery__image">
-        <img src="./images/adornos7.jpg" alt="" class="gallery__image">
-        <img src="./images/adornos8.jpg" alt="" class="gallery__image">
-        <img src="./images/adornos9.jpg" alt="" class="gallery__image">
-        <img src="./images/adornos10.jpg" alt="" class="gallery__image">
-        <img src="./images/adornos11.jpg" alt="" class="gallery__image">
-        <img src="./images/adornos12.jpg" alt="" class="gallery__image">
+<!--        <img src="./images/adornos1.jpg" alt="" class="gallery__image">-->
+<!--        <img src="./images/adornos2.jpg" alt="" class="gallery__image">-->
+<!--        <img src="./images/adornos3.jpg" alt="" class="gallery__image">-->
+<!--        <img src="./images/adornos4.jpg" alt="" class="gallery__image">-->
+<!--        <img src="./images/adornos5.jpg" alt="" class="gallery__image">-->
+<!--        <img src="./images/adornos6.jpg" alt="" class="gallery__image">-->
+<!--        <img src="./images/adornos7.jpg" alt="" class="gallery__image">-->
+<!--        <img src="./images/adornos8.jpg" alt="" class="gallery__image">-->
+<!--        <img src="./images/adornos9.jpg" alt="" class="gallery__image">-->
+<!--        <img src="./images/adornos10.jpg" alt="" class="gallery__image">-->
+<!--        <img src="./images/adornos11.jpg" alt="" class="gallery__image">-->
+<!--        <img src="./images/adornos12.jpg" alt="" class="gallery__image">-->
       </section>
+      <div class="gallery__button-container"><button class="gallery__button"></button></div>
+
+
+
 
       <section class="feachures content__feachures">
         <h2 class="feachures__title">Лофт для любых событий</h2>
         <p class="feachures__subtitle">На 180 квадратных метрах, оформленных в стиле «Лофт», можно реализовать любые креативные идеи.</p>
         <ul class="feachures__cards">
           <li class="card">
-              <img class="card__image" src="./images/dance.jpg" alt="Иллюстрация, танцующая пара">
-              <div class="card__image-text">Забронировать сейчас</div>
+            <img class="card__image" src="./images/dance.jpg" alt="Иллюстрация, танцующая пара">
+            <div class="card__image-text">Забронировать сейчас</div>
             <h3 class="card__title">Танцевальные мероприятия</h3>
-            <p class="card__text">Boost your brand recognition with each click. Generic links don’t mean a thing. Branded links help instil confidence in your content.</p>
+            <p class="card__text">Наш лофт – универсальное премиум-пространство для проведения Вашего праздника. Мы предлагаем доступные цены на аренду помещения, гибкую систему скидок нашим постоянным клиентам, дополнительные услуги (организация мероприятий под ключ, услуги профессионального фотографа, оператора, ведущего). Наш лофт – универсальное премиум-пространство для проведения Вашего праздника. Мы предлагаем доступные цены на аренду помещения, гибкую систему скидок нашим постоянным клиентам, дополнительные услуги (организация мероприятий под ключ, услуги профессионального фотографа, оператора, ведущего).</p>
           </li>
           <li class="card">
             <img class="card__image" src="./images/children.jpg" alt="Веселящиеся дети">
@@ -116,5 +140,54 @@
       </nav>
     </footer>
   </div>
+
+  <div class="popup popup_content_booking-form">
+    <div class="popup__container popup__container_content_form">
+      <button type="button" class="popup__close-button"></button>
+      <h2 class="popup__title">Забронировать лофт</h2>
+      <form name="booking" action="#" class="form" novalidate>
+        <label for="user-name-input" class="form__input-title">Представьтесь пожалуйста</label>
+        <input class="form__input form__input_info_name" autocomplete="off" id="user-name-input" required
+               minlength="2" maxlength="40" type="text" name="userName" placeholder="Как к Вам можно обращаться?">
+        <span class="form__input-error user-name-input-error"></span>
+        <label for="phone-number-input" class="form__input-title">Ваш контактный номер телефона</label>
+        <input class="form__input form__input_info_value" autocomplete="off" id="phone-number-input" required
+               minlength="7" maxlength="16" type="tel" name="phoneNumber" placeholder="Мы перезвоним Вам в ближайшее время">
+        <span class="form__input-error phone-number-input-error"></span>
+        <label for="date-input" class="form__input-title">На какую дату Вы хотели бы сделать бронь?</label>
+        <input class="form__input form__input_info_value" autocomplete="off" id="date-input" required
+               minlength="7" maxlength="16" type="date" name="bookingDate">
+        <span class="form__input-error date-input-error"></span>
+        <button class="form__submit-button" type="submit">Забронировать</button>
+      </form>
+    </div>
+  </div>
+
+  <div class="popup popup_content_photo">
+    <div class="popup__container popup__container_content_photo">
+      <button type="button" class="popup__close-button"></button>
+      <img src="./images/adornos3.jpg" alt="Казань" class="popup__photo">
+    </div>
+  </div>
+
+  <div class="popup popup_content_feachure-card">
+    <div class="popup__container popup__container_content_feachure-card">
+      <button type="button" class="popup__close-button"></button>
+      <h2 class="popup__title popup__title_content_feachure-card">Танцевальные мероприятия</h2>
+      <img class="popup__image" src="./images/dance.jpg" alt="Танцевальные мероприятия, фото">
+      <p class="popup__text">Наш лофт – универсальное премиум-пространство для проведения Вашего праздника. Мы предлагаем доступные цены на аренду помещения, гибкую систему скидок нашим постоянным клиентам, дополнительные услуги (организация мероприятий под ключ, услуги профессионального фотографа, оператора, ведущего).</p>
+    </div>
+  </div>
+
+  <template id="card">
+    <li class="card">
+      <img class="card__image" src="./images/dance.jpg" alt="Иллюстрация, танцующая пара">
+      <div class="card__image-text">Забронировать сейчас</div>
+      <h3 class="card__title">Танцевальные мероприятия</h3>
+      <p class="card__text">Boost your brand recognition with each click. Generic links don’t mean a thing. Branded links help instil confidence in your content.</p>
+    </li>
+  </template>
+
+  <script type="module" rel="script" src="./pages/index.js"> </script>
 </body>
 </html>

@@ -1,8 +1,5 @@
 .link {
   text-decoration: none;
-  font-family: 'Prata', 'Arial', 'Helvetica', sans-serif;
-  font-size: 15px;
-  line-height: 18px;
   color: #9E9AA8;
   text-transform: uppercase;
   transition: color 0.3s linear;

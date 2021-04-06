@@ -2,8 +2,8 @@
   position: absolute;
   top: 0;
   left: 0;
-  width: 100%;
-  height: 950px;
+  right: 0;
+  bottom: 0;
 }
 
 .heading__video-container::before {
@@ -19,3 +19,8 @@
 }
 
 
+/*@media screen and (max-width:1023px) {*/
+/*  .heading__video-container {*/
+/*    display: none;*/
+/*  }*/
+/*}*/

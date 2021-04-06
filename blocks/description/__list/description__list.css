@@ -2,3 +2,10 @@
   list-style-type: none;
   padding: 0;
 }
+
+@media screen and (max-width: 1023px){
+  .description__list{
+    padding-left: 10px;
+    text-align: left;
+  }
+}
