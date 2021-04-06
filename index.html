@@ -137,9 +137,9 @@
     </footer>
   </div>
 
-  <div class="popup popup_content_booking-form popup_opened">
+  <div class="popup popup_content_booking-form">
     <div class="popup__container popup__container_content_form">
-      <button type="button" class="popup__close-button"></button>
+      <button type="button" class="popup__close-button"></button><x></x>
       <h2 class="popup__title">Забронировать лофт</h2>
       <form name="profile" action="#" class="form" novalidate>
         <label for="userName" class="form__input-title">Представьтесь пожалуйста</label>
@@ -154,7 +154,7 @@
         <input class="form__input form__input_info_value" autocomplete="off" id="bookingDate" required
                minlength="7" maxlength="16" type="date" name="bookingDate">
         <span class="form__input-error profile-job-input-error"></span>
-        <button class="booking-button booking-button_place_form" type="submit">Забронировать</button>
+        <button class="form__submit-button" type="submit">Забронировать</button>
       </form>
     </div>
   </div>
@@ -162,7 +162,19 @@
   <div class="popup popup_content_photo">
     <div class="popup__container popup__container_content_photo">
       <button type="button" class="popup__close-button"></button>
-      <img src="<%=require('./images/kazan.jpg')%>" alt="Казань" class="popup__photo">
+      <img src="./images/adornos3.jpg" alt="Казань" class="popup__photo">
+    </div>
+  </div>
+
+  <div class="popup popup_content_feachure-card">
+    <div class="popup__container popup__container_content_feachure-card">
+      <button type="button" class="popup__close-button"></button>
+      <h2 class="popup__title popup__title_content_feachure-card">Танцевальные мероприятия</h2>
+      <img class="popup__image" src="./images/dance.jpg">
+      <p class="popup__text">Наш лофт – универсальное премиум-пространство для проведения Вашего праздника. Мы предлагаем доступные цены на аренду помещения, гибкую систему скидок нашим постоянным клиентам, дополнительные услуги (организация мероприятий под ключ, услуги профессионального фотографа, оператора, ведущего).</p>
+      <p class="popup__text">Наш лофт – универсальное премиум-пространство для проведения Вашего праздника. Мы предлагаем доступные цены на аренду помещения, гибкую систему скидок нашим постоянным клиентам, дополнительные услуги (организация мероприятий под ключ, услуги профессионального фотографа, оператора, ведущего).</p>
+
+
     </div>
   </div>
 

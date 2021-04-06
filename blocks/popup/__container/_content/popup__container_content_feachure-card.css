@@ -1,0 +1,29 @@
+.popup__container_content_feachure-card{
+  box-sizing: border-box;
+  padding: 34px;
+  width: 50%;
+  max-width: 700px;
+  background-color: #fff;
+  justify-content: center;
+  align-items: center;
+  display: grid;
+  grid-template-columns: 90%;
+  grid-template-rows: min-content 200px min-content;
+  align-content: center;
+  justify-items: center;
+  row-gap: 10px;
+}
+
+@media screen and (max-width: 1023px) {
+  .popup__container_content_feachure-card{
+    /*width: 300px;*/
+    padding: 25px 22px;
+    /*grid-template-rows: min-content 200px min-content;*/
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .popup__container_content_feachure-card{
+    width: 300px;
+  }
+}
