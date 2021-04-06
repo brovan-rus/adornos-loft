@@ -8,17 +8,18 @@
   max-width: 1280px;
 }
 
-
 @media screen and (min-width: 768px) and (max-width: 1024px) {
   .gallery {
     max-width: calc(100vw - (3 * 100vw / 16 - 96px));
-
   }
 }
 
 @media screen and (min-width: 321px) and (max-width: 767px) {
   .gallery {
     max-width: calc(100vw - (20.57px + 100vw / 28));
+    /*grid-template-rows: repeat(auto-fit, minmax(284px, 300px));*/
+    grid-auto-rows: 300px;
+
   }
 }
 

@@ -7,7 +7,7 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Adornos Loft</title>
   <link rel="stylesheet" href="./pages/index.css">
-  <script defer rel="script" src="./pages/index.js"> </script>
+
 </head>
 
 <body>
@@ -68,29 +68,33 @@
       </div>
 
       <section class="gallery content__gallery">
-        <img src="./images/adornos1.jpg" alt="" class="gallery__image">
-        <img src="./images/adornos2.jpg" alt="" class="gallery__image">
-        <img src="./images/adornos3.jpg" alt="" class="gallery__image">
-        <img src="./images/adornos4.jpg" alt="" class="gallery__image">
-        <img src="./images/adornos5.jpg" alt="" class="gallery__image">
-        <img src="./images/adornos6.jpg" alt="" class="gallery__image">
-        <img src="./images/adornos7.jpg" alt="" class="gallery__image">
-        <img src="./images/adornos8.jpg" alt="" class="gallery__image">
-        <img src="./images/adornos9.jpg" alt="" class="gallery__image">
-        <img src="./images/adornos10.jpg" alt="" class="gallery__image">
-        <img src="./images/adornos11.jpg" alt="" class="gallery__image">
-        <img src="./images/adornos12.jpg" alt="" class="gallery__image">
+<!--        <img src="./images/adornos1.jpg" alt="" class="gallery__image">-->
+<!--        <img src="./images/adornos2.jpg" alt="" class="gallery__image">-->
+<!--        <img src="./images/adornos3.jpg" alt="" class="gallery__image">-->
+<!--        <img src="./images/adornos4.jpg" alt="" class="gallery__image">-->
+<!--        <img src="./images/adornos5.jpg" alt="" class="gallery__image">-->
+<!--        <img src="./images/adornos6.jpg" alt="" class="gallery__image">-->
+<!--        <img src="./images/adornos7.jpg" alt="" class="gallery__image">-->
+<!--        <img src="./images/adornos8.jpg" alt="" class="gallery__image">-->
+<!--        <img src="./images/adornos9.jpg" alt="" class="gallery__image">-->
+<!--        <img src="./images/adornos10.jpg" alt="" class="gallery__image">-->
+<!--        <img src="./images/adornos11.jpg" alt="" class="gallery__image">-->
+<!--        <img src="./images/adornos12.jpg" alt="" class="gallery__image">-->
       </section>
+      <div class="gallery__button-container"><button class="gallery__button"></button></div>
+
+
+
 
       <section class="feachures content__feachures">
         <h2 class="feachures__title">Лофт для любых событий</h2>
         <p class="feachures__subtitle">На 180 квадратных метрах, оформленных в стиле «Лофт», можно реализовать любые креативные идеи.</p>
         <ul class="feachures__cards">
           <li class="card">
-              <img class="card__image" src="./images/dance.jpg" alt="Иллюстрация, танцующая пара">
-              <div class="card__image-text">Забронировать сейчас</div>
+            <img class="card__image" src="./images/dance.jpg" alt="Иллюстрация, танцующая пара">
+            <div class="card__image-text">Забронировать сейчас</div>
             <h3 class="card__title">Танцевальные мероприятия</h3>
-            <p class="card__text">Boost your brand recognition with each click. Generic links don’t mean a thing. Branded links help instil confidence in your content.</p>
+            <p class="card__text">Наш лофт – универсальное премиум-пространство для проведения Вашего праздника. Мы предлагаем доступные цены на аренду помещения, гибкую систему скидок нашим постоянным клиентам, дополнительные услуги (организация мероприятий под ключ, услуги профессионального фотографа, оператора, ведущего). Наш лофт – универсальное премиум-пространство для проведения Вашего праздника. Мы предлагаем доступные цены на аренду помещения, гибкую систему скидок нашим постоянным клиентам, дополнительные услуги (организация мероприятий под ключ, услуги профессионального фотографа, оператора, ведущего).</p>
           </li>
           <li class="card">
             <img class="card__image" src="./images/children.jpg" alt="Веселящиеся дети">
@@ -139,7 +143,7 @@
 
   <div class="popup popup_content_booking-form">
     <div class="popup__container popup__container_content_form">
-      <button type="button" class="popup__close-button"></button><x></x>
+      <button type="button" class="popup__close-button"></button>
       <h2 class="popup__title">Забронировать лофт</h2>
       <form name="profile" action="#" class="form" novalidate>
         <label for="userName" class="form__input-title">Представьтесь пожалуйста</label>
@@ -170,13 +174,20 @@
     <div class="popup__container popup__container_content_feachure-card">
       <button type="button" class="popup__close-button"></button>
       <h2 class="popup__title popup__title_content_feachure-card">Танцевальные мероприятия</h2>
-      <img class="popup__image" src="./images/dance.jpg">
+      <img class="popup__image" src="./images/dance.jpg" alt="Танцевальные мероприятия, фото">
       <p class="popup__text">Наш лофт – универсальное премиум-пространство для проведения Вашего праздника. Мы предлагаем доступные цены на аренду помещения, гибкую систему скидок нашим постоянным клиентам, дополнительные услуги (организация мероприятий под ключ, услуги профессионального фотографа, оператора, ведущего).</p>
-      <p class="popup__text">Наш лофт – универсальное премиум-пространство для проведения Вашего праздника. Мы предлагаем доступные цены на аренду помещения, гибкую систему скидок нашим постоянным клиентам, дополнительные услуги (организация мероприятий под ключ, услуги профессионального фотографа, оператора, ведущего).</p>
-
-
     </div>
   </div>
 
+  <template id="card">
+    <li class="card">
+      <img class="card__image" src="./images/dance.jpg" alt="Иллюстрация, танцующая пара">
+      <div class="card__image-text">Забронировать сейчас</div>
+      <h3 class="card__title">Танцевальные мероприятия</h3>
+      <p class="card__text">Boost your brand recognition with each click. Generic links don’t mean a thing. Branded links help instil confidence in your content.</p>
+    </li>
+  </template>
+
+  <script type="module" rel="script" src="./pages/index.js"> </script>
 </body>
 </html>

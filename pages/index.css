@@ -79,3 +79,6 @@
 @import url('../blocks/popup/__image/popup__image.css');
 @import url('../blocks/popup/__text/popup__text.css');
 @import url('../blocks/popup/__title/_content/popup__title_content_feachure-card.css');
+@import url('../blocks/gallery/__button/gallery__button.css');
+@import url('../blocks/gallery/__button-containter/gallery__button-container.css');
+@import url('../blocks/gallery/__button/gallery__button_inactive.css');

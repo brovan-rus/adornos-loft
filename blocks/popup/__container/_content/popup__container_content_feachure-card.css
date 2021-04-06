@@ -1,8 +1,8 @@
 .popup__container_content_feachure-card{
   box-sizing: border-box;
-  padding: 34px;
+  padding: 20px;
   width: 50%;
-  max-width: 700px;
+  max-width: 600px;
   background-color: #fff;
   justify-content: center;
   align-items: center;
@@ -17,7 +17,7 @@
 @media screen and (max-width: 1023px) {
   .popup__container_content_feachure-card{
     /*width: 300px;*/
-    padding: 25px 22px;
+    /*padding: 25px 22px;*/
     /*grid-template-rows: min-content 200px min-content;*/
   }
 }
