@@ -2,7 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9e832670-b1e2-4bb5-954f-0dd7b53d637e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/blocks/hidden/hidden.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/blocks/panorama/panorama.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/blocks/tour/__title/tour__title.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/blocks/tour/tour.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Page.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/pano.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tour.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/constants.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/constants.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,21 +48,26 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/blocks" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/dist" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="reference.idesettings.emmet.xml" />
+    <property name="prettierjs.PrettierConfiguration.Package" value="C:\Users\ASUS\dev\adornos-loft\node_modules\prettier" />
+    <property name="settings.editor.selected.configurable" value="settings.javascript.prettier" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ASUS\dev\adornos-loft\dist" />
+      <recent name="C:\Users\ASUS\dev\adornos-loft\src\images" />
+      <recent name="C:\Users\ASUS\dev\adornos-loft\src" />
+      <recent name="C:\Users\ASUS\dev\adornos-loft" />
       <recent name="C:\Users\ASUS\dev\adornos-loft\blocks" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ASUS\dev\adornos-loft\dist\vendorScript" />
       <recent name="C:\Users\ASUS\dev\adornos-loft\src" />
       <recent name="C:\Users\ASUS\dev\adornos-loft\blocks" />
       <recent name="C:\Users\ASUS\dev\adornos-loft\blocks\ending\__titile" />
       <recent name="C:\Users\ASUS\dev\adornos-loft\blocks\page" />
-      <recent name="C:\Users\ASUS\dev\adornos-loft\blocks\content" />
     </key>
   </component>
   <component name="RunManager">
@@ -78,6 +97,10 @@
       <workItem from="1617729153449" duration="3697000" />
       <workItem from="1617874074834" duration="262000" />
       <workItem from="1617913937965" duration="426000" />
+      <workItem from="1618153732772" duration="2276000" />
+      <workItem from="1618156273132" duration="12488000" />
+      <workItem from="1618169528683" duration="4952000" />
+      <workItem from="1618266068792" duration="8726000" />
     </task>
     <servers />
   </component>
@@ -95,6 +118,10 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/adornos_loft$index_html.dat" NAME="index.html Coverage Results" MODIFIED="1617123889766" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="WipCoverageRunner" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />

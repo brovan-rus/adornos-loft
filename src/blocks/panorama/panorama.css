@@ -1,0 +1,7 @@
+#panorama {
+  width: 80vw;
+  height: 70vh;
+  display: flex;
+  align-self: center;
+  margin-bottom: 40px;
+}

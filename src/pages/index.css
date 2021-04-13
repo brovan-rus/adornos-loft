@@ -82,3 +82,7 @@
 @import url('../blocks/gallery/__button/gallery__button.css');
 @import url('../blocks/gallery/__button-containter/gallery__button-container.css');
 @import url('../blocks/gallery/__button/gallery__button_inactive.css');
+@import url('../blocks/tour/tour.css');
+@import url('../blocks/hidden/hidden.css');
+@import url('../blocks/tour/__title/tour__title.css');
+@import url('../blocks/panorama/panorama.css');
