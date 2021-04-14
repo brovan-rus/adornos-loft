@@ -3,6 +3,7 @@
   color: #9E9AA8;
   text-transform: uppercase;
   transition: color 0.3s linear;
+  display: flex;
 }
 
 
