@@ -113,28 +113,6 @@ function handleOpenPopupWithForm() {
   popupWithForm.open();
 }
 
-// function handleSubmitForm(evt) {
-//   evt.preventDefault();
-//
-//   // Email.send({
-//   //   Host: "smtp.elasticemail.com",
-//   //   Username: "brovan@gmail.com",
-//   //   Password: "815DBF0EB5A96D942173188498531472E32C",
-//   //   To: "brovan@yandex.ru",
-//   //   From: "brovan@gmail.com",
-//   //   Subject: "test",
-//   //   Body: "test",
-//   // })
-//   //   .then((message) => {
-//   //     alert(message);
-//   //   })
-//   //   .catch((message) => {
-//   //     alert(message);
-//   //   });
-//
-//   popupWithForm.close();
-// }
-
 function makeGalleryItem(url, title = "Интерьер лофта Адорнос") {
   const galleryItem = document.createElement("img");
   galleryItem.src = url;
@@ -181,8 +159,6 @@ Array.from(feachureCardImages).forEach((element) => {
 Array.from(bookingButtons).forEach((element) => {
   element.addEventListener("click", handleOpenPopupWithForm);
 });
-
-// bookingForm.addEventListener("submit", handleSubmitForm);
 
 // Убираем текст с видео при наведении на клавишу "Забронировать"
 bookingButtonIntro.addEventListener("mouseover", () =>

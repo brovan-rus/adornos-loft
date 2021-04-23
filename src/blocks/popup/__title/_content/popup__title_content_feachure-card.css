@@ -1,19 +1,19 @@
 .popup__title_content_feachure-card {
-  margin-bottom: 18px;
-  font-size: calc(100vw * 3 / 208 + 5.5px);
+  font-size: 28px;
+  line-height: 30x;
 }
 
 @media screen and (max-width: 864px){
   .popup__title_content_feachure-card {
     width: 238px;
-    font-size: 18px;
-    line-height: 20px;
+    font-size: 20px;
+    line-height: 25px;
   }
 }
 
-@media screen and (min-width: 1280px){
-  .popup__title_content_feachure-card {
-    font-size: 18px;
-    line-height: 22px;
-  }
-}
+/*@media screen and (min-width: 1280px){*/
+/*  .popup__title_content_feachure-card {*/
+/*    font-size: 28px;*/
+/*    line-height: 30x;*/
+/*  }*/
+/*}*/
