@@ -7,15 +7,16 @@
   justify-content: center;
   align-items: center;
   display: grid;
-  grid-template-columns: 90%;
-  grid-template-rows: min-content 200px min-content;
+  grid-template-columns: 85%;
+  grid-template-rows: max-content 200px min-content;
   align-content: center;
   justify-items: center;
-  row-gap: 10px;
+  row-gap: 20px;
 }
 
 @media screen and (max-width: 1023px) {
   .popup__container_content_feachure-card{
+    grid-template-columns: 90%;
     /*width: 300px;*/
     /*padding: 25px 22px;*/
     /*grid-template-rows: min-content 200px min-content;*/

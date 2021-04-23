@@ -5,5 +5,9 @@
   text-align: center;
   letter-spacing: 0.122727px;
   color: #9E9AA8;
+  margin: 0 0 10px 0;
+}
+
+.feachures__subtitle:last-of-type{
   margin-bottom: 80px;
 }

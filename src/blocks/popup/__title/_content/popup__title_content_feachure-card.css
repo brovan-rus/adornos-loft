@@ -1,6 +1,7 @@
 .popup__title_content_feachure-card {
-  font-size: 28px;
-  line-height: 30x;
+  /*font-size: 28px;*/
+  line-height: 30px;
+  margin: 0;
 }
 
 @media screen and (max-width: 864px){

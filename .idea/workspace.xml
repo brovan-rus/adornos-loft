@@ -3,14 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="9e832670-b1e2-4bb5-954f-0dd7b53d637e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/blocks/card/__titile/card__title.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/card/__titile/card__title.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/blocks/feachures/__subtitle/feachures__subtitle.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/feachures/__subtitle/feachures__subtitle.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/blocks/feachures/__title/feachures__title.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/feachures/__title/feachures__title.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/blocks/popup/__container/_content/popup__container_content_feachure-card.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/popup/__container/_content/popup__container_content_feachure-card.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/blocks/popup/__image/popup__image.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/popup/__image/popup__image.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/blocks/popup/__title/_content/popup__title_content_feachure-card.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/popup/__title/_content/popup__title_content_feachure-card.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/blocks/popup/__title/popup__title.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/popup/__title/popup__title.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/dance.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/dance.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/pano.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/pano.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/training.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/training.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/exibitions.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/exibitions.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/tour.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/tour.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -99,6 +98,7 @@
       <workItem from="1618349310462" duration="1644000" />
       <workItem from="1618399509565" duration="16570000" />
       <workItem from="1618762084975" duration="599000" />
+      <workItem from="1619193389233" duration="5433000" />
     </task>
     <servers />
   </component>
