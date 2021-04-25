@@ -2,15 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9e832670-b1e2-4bb5-954f-0dd7b53d637e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/blocks/chat/__link-visible/chat__link-visible.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/blocks/chat/__open-chat/chat__open-chat.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/blocks/chat/__opened/chat__opened.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/blocks/chat/__telephone-link/chat__telephone-link.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/blocks/chat/__whatsupp-link/chat__whatsupp-link.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/blocks/chat/chat.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/chaticon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/closechaticon.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/blocks/feachures/__subtitle/feachures__subtitle.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/feachures/__subtitle/feachures__subtitle.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/blocks/feachures/__title/feachures__title.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/feachures/__title/feachures__title.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/blocks/popup/__container/_content/popup__container_content_feachure-card.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/popup/__container/_content/popup__container_content_feachure-card.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/blocks/popup/__image/popup__image.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/popup/__image/popup__image.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/blocks/popup/__title/_content/popup__title_content_feachure-card.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/popup/__title/_content/popup__title_content_feachure-card.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/exibitions.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/exibitions.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tour.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/tour.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,7 +100,8 @@
       <workItem from="1618349310462" duration="1644000" />
       <workItem from="1618399509565" duration="16570000" />
       <workItem from="1618762084975" duration="599000" />
-      <workItem from="1619193389233" duration="5433000" />
+      <workItem from="1619193389233" duration="5855000" />
+      <workItem from="1619368056803" duration="1869000" />
     </task>
     <servers />
   </component>
