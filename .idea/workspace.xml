@@ -2,16 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9e832670-b1e2-4bb5-954f-0dd7b53d637e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/blocks/chat/__link-visible/chat__link-visible.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/blocks/chat/__open-chat/chat__open-chat.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/blocks/chat/__opened/chat__opened.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/blocks/chat/__telephone-link/chat__telephone-link.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/blocks/chat/__whatsupp-link/chat__whatsupp-link.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/blocks/chat/chat.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/chaticon.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/closechaticon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/blocks/chat/__link/_visible/chat__link_hidden.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/blocks/chat/__telephone-button/chat__telephone-button.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/telephone-icon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/whatsupp-icon.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/blocks/chat/__link-visible/chat__link-visible.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/chat/__button/button.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/blocks/chat/__open-chat/chat__open-chat.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/chat/__open-chat/chat__open-chat.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/blocks/chat/__opened/chat__opened.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/chat/__opened/chat__opened.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/blocks/chat/__telephone-link/chat__telephone-link.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/chat/__link/chat__link.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/blocks/chat/__whatsupp-link/chat__whatsupp-link.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/chat/__watsupp-button/chat__watsupp-button.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/blocks/chat/chat.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/chat/chat.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/blocks/page/page.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/page/page.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -59,11 +63,11 @@
       <recent name="C:\Users\ASUS\dev\adornos-loft\blocks" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ASUS\dev\adornos-loft\src\blocks\chat\__link" />
       <recent name="C:\Users\ASUS\dev\adornos-loft\dist\vendorScript" />
       <recent name="C:\Users\ASUS\dev\adornos-loft\src" />
       <recent name="C:\Users\ASUS\dev\adornos-loft\blocks" />
       <recent name="C:\Users\ASUS\dev\adornos-loft\blocks\ending\__titile" />
-      <recent name="C:\Users\ASUS\dev\adornos-loft\blocks\page" />
     </key>
   </component>
   <component name="RunManager">
@@ -101,7 +105,8 @@
       <workItem from="1618399509565" duration="16570000" />
       <workItem from="1618762084975" duration="599000" />
       <workItem from="1619193389233" duration="5855000" />
-      <workItem from="1619368056803" duration="1869000" />
+      <workItem from="1619368056803" duration="2543000" />
+      <workItem from="1619541168248" duration="9118000" />
     </task>
     <servers />
   </component>

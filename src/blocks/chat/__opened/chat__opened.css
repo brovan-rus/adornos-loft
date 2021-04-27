@@ -1,0 +1,4 @@
+.chat__opened {
+  transform: rotate(180deg);
+  background-image: url('../../../images/closechaticon.svg');
+}

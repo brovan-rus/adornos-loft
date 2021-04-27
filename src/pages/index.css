@@ -87,8 +87,10 @@
 @import url('../blocks/tour/__title/tour__title.css');
 @import url('../blocks/panorama/panorama.css');
 @import url('../blocks/chat/chat.css');
-@import url('../blocks/chat/__link-visible/chat__link-visible.css');
+@import url('../blocks/chat/__link/_visible/chat__link_hidden.css');
 @import url('../blocks/chat/__open-chat/chat__open-chat.css');
 @import url('../blocks/chat/__opened/chat__opened.css');
-@import url('../blocks/chat/__telephone-link/chat__telephone-link.css');
-@import url('../blocks/chat/__whatsupp-link/chat__whatsupp-link.css');
+@import url('../blocks/chat/__watsupp-button/chat__watsupp-button.css');
+@import url('../blocks/chat/__telephone-button/chat__telephone-button.css');
+@import url('../blocks/chat/__button/button.css');
+@import url('../blocks/chat/__link/chat__link.css');

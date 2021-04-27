@@ -20,27 +20,7 @@ import Popup from "./components/popup.js";
 import PopupWithForm from "./components/popupWithForm.js";
 import FormValidator from "./components/formValidator.js";
 import "./pages/index.css";
-
 import { Email } from "./components/smtp.js";
-
-//import { Viewer } from "photo-sphere-viewer";
-// import "photo-sphere-viewer/dist/photo-sphere-viewer.css";
-// import Page from "./components/Page.js";
-
-// const mainPage = new Page([".intro", ".gallery", ".feachures", ".ending"]);
-// const tourPage = new Page(".tour");
-// const tourLink = document.querySelector("#link3");
-// tourLink.addEventListener("click", openTourPage);
-//
-// function openTourPage() {
-//   mainPage.hideContent();
-//   tourPage.showContent();
-// }
-//
-// const viewer = new Viewer({
-//   container: tourSection,
-//   panorama: panorama.href,
-// });
 
 // Объявление счётчика кликов на кнопку в галерею.
 let clickCounter = 0;
@@ -78,10 +58,6 @@ const popupWithForm = new PopupWithForm(
       });
   }
 );
-
-function sleep(ms) {
-  return new Promise((resolve) => setTimeout(resolve, ms));
-}
 
 const popupWithImage = new Popup(".popup_content_photo");
 popupWithImage.setEventListeners();
@@ -181,3 +157,15 @@ if (mediaQueryList.matches) {
 } else {
   addPartOfGallery(clickCounter);
 }
+
+// Обработчик кнопки чата
+const chatButton = document.querySelector(".chat__open-chat");
+const chatLinks = document.querySelectorAll(".chat__link");
+function handleChatOpen() {
+  chatButton.classList.toggle("chat__opened");
+  Array.from(chatLinks).forEach((link) => {
+    // link.style.display = link.style.display === "none" ? "block" : "none";
+    link.classList.toggle("chat__link_hidden");
+  });
+}
+chatButton.addEventListener("click", handleChatOpen);
