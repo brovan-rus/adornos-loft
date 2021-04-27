@@ -85,4 +85,12 @@
 .hidden{opacity:0}
 .tour__title{font-family:Prata,Arial,Helvetica,sans-serif;font-style:normal;font-size:54px;line-height:1.07;color:#000;margin:0 0 40px;text-align:center}@media screen and (min-width:321px) and (max-width:1023px){.tour__title{font-size:calc(4.91071vw + 16.29px);line-height:calc(5.13393vw + 18.57px)}}@media screen and (max-width:1023px){.tour__title{text-align:center}}@media screen and (max-width:320px){.tour__title{font-size:32px;line-height:35px}}
 #panorama{width:80vw;height:70vh;display:flex;align-self:center;margin-bottom:40px}
+.chat{position:fixed;right:40px;bottom:125px;z-index:10}
+.chat__link_hidden{display:none}
+.chat__open-chat{background-color:#ff6060;background-image:url(fbb814731cd5c232b880.svg)}
+.chat__opened{transform:rotate(180deg);background-image:url(578dcb2aa2bce8389281.svg)}
+.chat__whatsupp-button{background-image:url(48b29df8de49b9b2ddfb.svg)}
+.chat__telephone-button{background-image:url(1339fdb10b797c1d2f26.svg)}
+.chat__button{cursor:pointer;box-shadow:0 3px 6px rgba(0,0,0,.25);border-radius:50%;border:0;height:54px;width:54px;transition:transform .3s linear;z-index:5;outline:none}
+.chat__link{margin-bottom:5px}
 
