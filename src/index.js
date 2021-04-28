@@ -76,11 +76,6 @@ function handleFeachurePopupOpen(evt) {
   popupWithFeachureCard.open();
 }
 
-function handleHamburgerMenu() {
-  hamburger.classList.toggle("hamburger_active");
-  mobileMenu.classList.toggle("nav_device_mobile_active");
-}
-
 function handleOpenPopupWithForm() {
   bookingForm.userName.value = "";
   bookingForm.phoneNumber.value = "";
@@ -128,7 +123,6 @@ function handleGalleryButton() {
 
 //Добавление слушателей
 galleryButton.addEventListener("click", handleGalleryButton);
-hamburger.addEventListener("click", handleHamburgerMenu);
 Array.from(feachureCardImages).forEach((element) => {
   element.addEventListener("click", handleFeachurePopupOpen);
 });
@@ -149,7 +143,7 @@ bookingButtonIntro.addEventListener("mouseout", () =>
   })
 );
 
-// Заполнение галлереи картинками из массива
+// Заполнение галереи картинками из массива
 if (mediaQueryList.matches) {
   imagesURLList.forEach((element) => {
     gallerySection.append(makeGalleryItem(element));
@@ -158,14 +152,16 @@ if (mediaQueryList.matches) {
   addPartOfGallery(clickCounter);
 }
 
-// Обработчик кнопки чата
-const chatButton = document.querySelector(".chat__open-chat");
-const chatLinks = document.querySelectorAll(".chat__link");
-function handleChatOpen() {
-  chatButton.classList.toggle("chat__opened");
-  Array.from(chatLinks).forEach((link) => {
-    // link.style.display = link.style.display === "none" ? "block" : "none";
-    link.classList.toggle("chat__link_hidden");
-  });
+// Импортируем класс чата и включаем его при в мобильной версии
+import Chat from "./components/Chat.js";
+const chat = new Chat();
+if (!mediaQueryList.matches) {
+  chat.enableChat();
 }
-chatButton.addEventListener("click", handleChatOpen);
+
+// Импортируем класс гамбургер меню и включаем его в мобильной версии
+import HamburgerMenu from "./components/Hamburger.js";
+const hamburgerMenu = new HamburgerMenu();
+if (!mediaQueryList.matches) {
+  hamburgerMenu.enableHamburgerMenu();
+}

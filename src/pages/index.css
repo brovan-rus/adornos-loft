@@ -94,3 +94,6 @@
 @import url('../blocks/chat/__telephone-button/chat__telephone-button.css');
 @import url('../blocks/chat/__button/button.css');
 @import url('../blocks/chat/__link/chat__link.css');
+@import url('../blocks/constacts-booking/contacts-booking.css');
+@import url('../blocks/two-columns/two-columns.css');
+@import url('../blocks/map/map.css');

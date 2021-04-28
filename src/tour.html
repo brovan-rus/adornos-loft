@@ -62,26 +62,17 @@
       </ul>
     </nav>
   </footer>
+
+  <div class="chat">
+    <form class="chat__link chat__link_hidden" action="tel:+79250785909">
+      <button type="submit" class="chat__button chat__telephone-button"></button>
+    </form>
+    <form class="chat__link chat__link_hidden" action="https://wa.me/79250785909">
+      <button type="submit" class="chat__button chat__whatsupp-button"></button>
+    </form>
+    <button class="chat__button chat__open-chat chat__link_hidden"></button>
+  </div>
 </div>
-
-
-<script>
-  pannellum.viewer('panorama', {
-    "type": "equirectangular",
-    "panorama": "./pano.jpg",
-    "autoLoad": true
-  });
-
-
-  const hamburger = document.querySelector(".hamburger");
-  const mobileMenu = document.querySelector(".nav_device_mobile");
-  function handleHamburgerMenu() {
-    hamburger.classList.toggle("hamburger_active");
-    mobileMenu.classList.toggle("nav_device_mobile_active");
-  }
-  hamburger.addEventListener("click", handleHamburgerMenu);
-
-</script>
 
 </body>
 </html>

@@ -74,5 +74,5 @@ export const bookingButtons = document.querySelectorAll(".booking-button");
 
 // Запрос на разрешение для обеспечения функционирования частичного заполнения галереи изображениями
 export const mediaQueryList = window.matchMedia(
-  "only screen and (min-width: 649px"
+  "only screen and (min-width: 649px)"
 );

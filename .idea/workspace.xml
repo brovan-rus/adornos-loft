@@ -2,8 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9e832670-b1e2-4bb5-954f-0dd7b53d637e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/blocks/constacts-booking/contacts-booking.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/blocks/map/map.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/blocks/two-columns/two-columns.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Chat.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Hamburger.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contacts.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contacts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tour.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/blocks/chat/chat.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/chat/chat.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/constants.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/constants.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tour.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/tour.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,7 +108,7 @@
       <workItem from="1619193389233" duration="5855000" />
       <workItem from="1619368056803" duration="2543000" />
       <workItem from="1619541168248" duration="9118000" />
-      <workItem from="1619628254776" duration="721000" />
+      <workItem from="1619628254776" duration="10280000" />
     </task>
     <servers />
   </component>

@@ -1,0 +1,8 @@
+.map {
+  width: 80%;
+  display: flex;
+  align-self: center;
+  height: 480px;
+  margin-bottom: 20px;
+
+}
