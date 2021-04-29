@@ -1,0 +1,5 @@
+.contact-information__subtitle {
+  text-align: center;
+  margin: 0 0 15px 0;
+  font-size: calc(15px + 100vw * 0.015);
+}

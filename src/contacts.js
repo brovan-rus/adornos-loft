@@ -1,5 +1,14 @@
 import "./pages/index.css";
 const mediaQueryList = window.matchMedia("only screen and (min-width: 649px)");
+// Изначальные значения для настройки валидации форм
+export const validationValues = {
+  formSelector: ".form",
+  inputSelector: ".form__input",
+  submitButtonSelector: ".form__submit-button",
+  inactiveButtonClass: "form__submit-button_disabled",
+  inputErrorClass: "form__input_type_error",
+  errorClass: "form__input-error_active",
+};
 
 // Импортируем класс чата и включаем его при в мобильной версии
 import Chat from "./components/Chat.js";
@@ -10,7 +19,76 @@ if (!mediaQueryList.matches) {
 
 // Импортируем класс гамбургер меню и включаем его в мобильной версии
 import HamburgerMenu from "./components/Hamburger.js";
+import { Email } from "./components/smtp";
 const hamburgerMenu = new HamburgerMenu();
 if (!mediaQueryList.matches) {
   hamburgerMenu.enableHamburgerMenu();
 }
+
+const contactsFormName = document.querySelector("#user-name-input");
+const contactsFormPhone = document.querySelector("#phone-number-input");
+const contactsFormSubmit = document.querySelector(".form__submit-button");
+const contactsForm = document.querySelector(".form");
+
+function handleContactsFormSubmit(evt) {
+  evt.preventDefault();
+  contactsFormSubmit.textContent = "Отправка";
+  Email.send({
+    Host: "smtp.elasticemail.com",
+    Username: "brovan@gmail.com",
+    Password: "815DBF0EB5A96D942173188498531472E32C",
+    To: "brovan@yandex.ru",
+    From: "brovan@gmail.com",
+    Subject: `Заявка на обратный звонок от пользователя ${contactsFormName.value}`,
+    Body: `Отправлена заявка на обратный звонок от пользователя ${contactsFormName.value} Телефонный номер - ${contactsFormPhone.value}`,
+  })
+    .then((message) => {
+      contactsFormSubmit.textContent = "Мы свяжемся с вами в ближайшее время!";
+    })
+    .catch((message) => {
+      contactsFormSubmit.textContent = "Произошла ошибка при отправке формы...";
+    })
+    .finally(() => {
+      evt.target.reset();
+      setTimeout(() => {
+        contactsFormSubmit.textContent = "Обратный звонок";
+        formValidator.clearValidation();
+      }, 2000);
+    });
+}
+
+contactsForm.addEventListener("submit", handleContactsFormSubmit);
+
+import FormValidator from "./components/formValidator";
+const formValidator = new FormValidator(validationValues, contactsForm);
+formValidator.clearValidation();
+formValidator.enableValidation();
+
+// onst popupWithForm = new PopupWithForm(
+//   ".popup_content_booking-form",
+//   (inputValues) => {
+//     popupWithForm.toggleButtonState();
+//     Email.send({
+//       Host: "smtp.elasticemail.com",
+//       Username: "brovan@gmail.com",
+//       Password: "815DBF0EB5A96D942173188498531472E32C",
+//       To: "brovan@yandex.ru",
+//       From: "brovan@gmail.com",
+//       Subject: `Заявка на бронирование лофта от пользователя ${inputValues.userName}`,
+//       Body: `Отправлена зявка на дату ${inputValues.userName} &#x0A; на бронирование лофта &#010; дата бронирования - ${inputValues.bookingDate}. &#x0A; Телефонный номер - ${inputValues.phoneNumber}`,
+//     })
+//       .then((message) => {
+//         popupWithForm.changeButtonText("Мы свяжемся с вами в ближайшее время!");
+//       })
+//       .catch((message) => {
+//         popupWithForm.changeButtonText(
+//           "Произошла ошибка при отправке формы..."
+//         );
+//       })
+//       .finally(() => {
+//         setTimeout(() => {
+//           popupWithForm.toggleButtonState();
+//         }, 2000);
+//       });
+//   }
+// );

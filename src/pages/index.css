@@ -97,3 +97,8 @@
 @import url('../blocks/constacts-booking/contacts-booking.css');
 @import url('../blocks/two-columns/two-columns.css');
 @import url('../blocks/map/map.css');
+@import url('../blocks/contact-information/contact-information.css');
+@import url('../blocks/contact-information/__titile/contact-information__title.css');
+@import url('../blocks/contact-information/__subtitile/contact-information__subtitle.css');
+@import url('../blocks/contact-information/__text/contact-information__text.css');
+@import url('../blocks/link/_place/link_place_contacts.css');
