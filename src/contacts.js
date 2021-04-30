@@ -1,7 +1,7 @@
 import "./pages/index.css";
 const mediaQueryList = window.matchMedia("only screen and (min-width: 649px)");
 // Изначальные значения для настройки валидации форм
-export const validationValues = {
+const validationValues = {
   formSelector: ".form",
   inputSelector: ".form__input",
   submitButtonSelector: ".form__submit-button",
