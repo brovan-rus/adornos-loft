@@ -1,5 +1,4 @@
 import {
-  hamburger,
   mediaQueryList,
   feachureCardImages,
   galleryButton,
@@ -11,7 +10,6 @@ import {
   gallerySection,
   imagesURLList,
   validationValues,
-  mobileMenu,
   bookingButtonIntro,
   bookingButtons,
   introText,

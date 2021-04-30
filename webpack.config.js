@@ -8,6 +8,7 @@ module.exports = {
     index: "./src/index.js",
     tour: "./src/tour.js",
     contacts: "./src/contacts.js",
+    prices: "./src/prices.js",
   },
   output: {
     path: path.resolve(__dirname, "dist"),
@@ -62,6 +63,11 @@ module.exports = {
       filename: "contacts.html",
       chunks: ["contacts"],
       template: "./src/contacts.html",
+    }),
+    new HtmlWebpackPlugin({
+      filename: "prices.html",
+      chunks: ["prices"],
+      template: "./src/prices.html",
     }),
 
     new CleanWebpackPlugin(),
