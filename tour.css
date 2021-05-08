@@ -34,7 +34,7 @@
 .feachures__subtitle{font-family:Prata,Arial,Helvetica,sans-serif;font-size:18px;line-height:32px;text-align:center;letter-spacing:.122727px;color:#9e9aa8;margin:0 0 10px}.feachures__subtitle:last-of-type{margin-bottom:80px}
 
 .content{width:100%;display:flex;flex-direction:column;justify-items:center}
-.feachures__cards{list-style-type:none;padding:0;display:grid;gap:70px;grid-template-rows:repeat(2,-webkit-max-content);grid-template-rows:repeat(2,max-content);grid-template-columns:repeat(auto-fit,minmax(300px,1fr));align-self:center}
+.feachures__cards{list-style-type:none;padding:0;display:grid;gap:70px;grid-template-rows:repeat(2,-webkit-max-content);grid-template-rows:repeat(2,max-content);grid-template-columns:repeat(auto-fit,minmax(300px,1fr));align-self:center}@media screen and (max-width:700px){.feachures__cards{grid-template-columns:100%}}
 .booking-button{font-family:Prata,Arial,Helvetica,sans-serif;font-size:22px;line-height:36px;letter-spacing:.15px;background-color:#ef4843;z-index:2;color:#fff;border-radius:28px;height:75px;cursor:pointer;border:0;transition:all .7s ease-in;outline:0;box-shadow:5px 5px 5px -5px rgba(34,60,80,.6)}.booking-button:hover~.heading__video-container:before{background-color:hsla(0,0%,100%,.2)}.booking-button:hover~.heading__title{color:transparent}
 .booking-button_place_intro{width:350px}@media screen and (min-width:1023px){.booking-button_place_intro:hover{background-color:red;width:450px;font-size:30px}}@media screen and (max-width:1023px){.booking-button_place_intro{width:85%}}
 .booking-button_place_ending{width:350px;margin-bottom:63px}.booking-button_place_ending:hover{background-color:red}
@@ -100,5 +100,6 @@
 .contact-information__title{text-align:center;margin:0 0 25px;font-size:calc(20px + 1.5vw)}
 .contact-information__subtitle{text-align:center;margin:0 0 15px;font-size:calc(15px + 1.5vw)}
 .contact-information__text{text-decoration:none;color:#000;margin:0 0 22px}.contact-information__text:last-child{margin:0}
-.link_place_contacts{color:#000}
+.link_place_contacts{color:#787580;width:-webkit-max-content;width:-moz-max-content;width:max-content}.link_place_contacts:hover{color:#000}
+.card_place_last-card{grid-column:2/3}@media screen and (max-width:700px){.card_place_last-card{grid-column:1/2}}
 
