@@ -7,3 +7,9 @@
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   align-self: center;
 }
+
+@media screen and (max-width: 700px){
+  .feachures__cards {
+    grid-template-columns: 100%;
+  }
+}

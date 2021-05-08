@@ -1,0 +1,9 @@
+.card_place_last-card {
+  grid-column: 2/3;
+}
+
+@media screen and (max-width: 700px){
+  .card_place_last-card {
+    grid-column: 1/2;
+  }
+}
