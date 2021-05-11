@@ -37,7 +37,7 @@ function handleContactsFormSubmit(evt) {
     Host: "smtp.elasticemail.com",
     Username: "brovan@gmail.com",
     Password: "815DBF0EB5A96D942173188498531472E32C",
-    To: "brovan@yandex.ru",
+    To: "loft@adornos.ru",
     From: "brovan@gmail.com",
     Subject: `Заявка на обратный звонок от пользователя ${contactsFormName.value}`,
     Body: `Отправлена заявка на обратный звонок от пользователя ${contactsFormName.value} Телефонный номер - ${contactsFormPhone.value}`,

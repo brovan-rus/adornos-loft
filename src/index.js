@@ -36,7 +36,7 @@ const popupWithForm = new PopupWithForm(
       Host: "smtp.elasticemail.com",
       Username: "brovan@gmail.com",
       Password: "815DBF0EB5A96D942173188498531472E32C",
-      To: "brovan@yandex.ru",
+      To: "loft@adornos.ru",
       From: "brovan@gmail.com",
       Subject: `Заявка на бронирование лофта от пользователя ${inputValues.userName}`,
       Body: `Отправлена зявка на дату ${inputValues.userName} &#x0A; на бронирование лофта &#010; дата бронирования - ${inputValues.bookingDate}. &#x0A; Телефонный номер - ${inputValues.phoneNumber}`,
