@@ -27,7 +27,8 @@ export const imagesURLList = [
   adornos11,
   adornos12,
 ];
-
+export const bookingMail = "template_siu6o05";
+export const gmail = "service_l39504m";
 // Изначальные значения для настройки валидации форм
 export const validationValues = {
   formSelector: ".form",

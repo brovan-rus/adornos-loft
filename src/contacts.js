@@ -29,19 +29,18 @@ const contactsFormName = document.querySelector("#user-name-input");
 const contactsFormPhone = document.querySelector("#phone-number-input");
 const contactsFormSubmit = document.querySelector(".form__submit-button");
 const contactsForm = document.querySelector(".form");
+const phoneMail = "template_iwsoimp";
+const gmail = "service_l39504m";
+emailjs.init("user_jPVRgLVLaYU3upvPx5EuS");
 
 function handleContactsFormSubmit(evt) {
   evt.preventDefault();
   contactsFormSubmit.textContent = "Отправка";
-  Email.send({
-    Host: "smtp.elasticemail.com",
-    Username: "brovan@gmail.com",
-    Password: "815DBF0EB5A96D942173188498531472E32C",
-    To: "brovan@yandex.ru",
-    From: "brovan@gmail.com",
-    Subject: `Заявка на обратный звонок от пользователя ${contactsFormName.value}`,
-    Body: `Отправлена заявка на обратный звонок от пользователя ${contactsFormName.value} Телефонный номер - ${contactsFormPhone.value}`,
-  })
+  emailjs
+    .send(gmail, phoneMail, {
+      name: contactsFormName.value,
+      phone: contactsFormPhone.value,
+    })
     .then((message) => {
       contactsFormSubmit.textContent = "Мы свяжемся с вами в ближайшее время!";
     })
@@ -60,6 +59,7 @@ function handleContactsFormSubmit(evt) {
 contactsForm.addEventListener("submit", handleContactsFormSubmit);
 
 import FormValidator from "./components/formValidator";
+import emailjs from "emailjs-com";
 const formValidator = new FormValidator(validationValues, contactsForm);
 formValidator.clearValidation();
 formValidator.enableValidation();
