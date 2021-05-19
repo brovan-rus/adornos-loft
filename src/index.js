@@ -13,12 +13,15 @@ import {
   bookingButtonIntro,
   bookingButtons,
   introText,
+  bookingMail,
+  gmail,
 } from "./components/constants.js";
 import Popup from "./components/popup.js";
 import PopupWithForm from "./components/popupWithForm.js";
 import FormValidator from "./components/formValidator.js";
 import "./pages/index.css";
-import { Email } from "./components/smtp.js";
+import emailjs from "emailjs-com";
+emailjs.init("user_jPVRgLVLaYU3upvPx5EuS");
 
 // Объявление счётчика кликов на кнопку в галерею.
 let clickCounter = 0;
@@ -32,15 +35,12 @@ const popupWithForm = new PopupWithForm(
   ".popup_content_booking-form",
   (inputValues) => {
     popupWithForm.toggleButtonState();
-    Email.send({
-      Host: "smtp.elasticemail.com",
-      Username: "brovan@gmail.com",
-      Password: "815DBF0EB5A96D942173188498531472E32C",
-      To: "loft@adornos.ru",
-      From: "brovan@gmail.com",
-      Subject: `Заявка на бронирование лофта от пользователя ${inputValues.userName}`,
-      Body: `Отправлена зявка на дату ${inputValues.userName} &#x0A; на бронирование лофта &#010; дата бронирования - ${inputValues.bookingDate}. &#x0A; Телефонный номер - ${inputValues.phoneNumber}`,
-    })
+    emailjs
+      .send(gmail, bookingMail, {
+        name: inputValues.userName,
+        date: inputValues.bookingDate,
+        phone: inputValues.phoneNumber,
+      })
       .then((message) => {
         popupWithForm.changeButtonText("Мы свяжемся с вами в ближайшее время!");
       })

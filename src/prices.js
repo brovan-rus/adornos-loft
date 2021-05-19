@@ -10,7 +10,6 @@ if (!mediaQueryList.matches) {
 
 // Импортируем класс гамбургер меню и включаем его в мобильной версии
 import HamburgerMenu from "./components/Hamburger.js";
-import { Email } from "./components/smtp";
 const hamburgerMenu = new HamburgerMenu();
 if (!mediaQueryList.matches) {
   hamburgerMenu.enableHamburgerMenu();
