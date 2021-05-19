@@ -3,11 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="9e832670-b1e2-4bb5-954f-0dd7b53d637e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/constants.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/constants.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/contacts.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/contacts.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/contacts.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/contacts.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/prices.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/prices.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tour.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/tour.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
