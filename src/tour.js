@@ -1,6 +1,5 @@
 import "./pages/index.css";
 const mediaQueryList = window.matchMedia("only screen and (min-width: 649px)");
-//import { mediaQueryList } from "./components/constants.js";
 
 pannellum.viewer("panorama", {
   type: "equirectangular",
