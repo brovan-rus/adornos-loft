@@ -2,10 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9e832670-b1e2-4bb5-954f-0dd7b53d637e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tour.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/tour.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/blocks/logo/_place/logo_place_header.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/logo/_place/logo_place_header.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/contacts.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/contacts.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/loft-logo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/loft-logo.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/prices.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/prices.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tour.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/tour.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +40,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/images" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="prettierjs.PrettierConfiguration.Package" value="C:\Users\ASUS\dev\adornos-loft\node_modules\prettier" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
@@ -45,8 +48,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\ASUS\dev\adornos-loft\dist" />
       <recent name="C:\Users\ASUS\dev\adornos-loft\src\images" />
+      <recent name="C:\Users\ASUS\dev\adornos-loft\dist" />
       <recent name="C:\Users\ASUS\dev\adornos-loft\src" />
       <recent name="C:\Users\ASUS\dev\adornos-loft" />
       <recent name="C:\Users\ASUS\dev\adornos-loft\blocks" />
@@ -110,7 +113,9 @@
       <workItem from="1629599820787" duration="1854000" />
       <workItem from="1629654812362" duration="599000" />
       <workItem from="1629721206741" duration="627000" />
-      <workItem from="1630431369243" duration="336000" />
+      <workItem from="1630431369243" duration="837000" />
+      <workItem from="1630432227506" duration="19000" />
+      <workItem from="1630518996991" duration="630000" />
     </task>
     <servers />
   </component>
