@@ -2,13 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9e832670-b1e2-4bb5-954f-0dd7b53d637e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/blocks/logo/__link/logo__link.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/blocks/header/header.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/header/header.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/blocks/logo/_place/logo_place_header.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/logo/_place/logo_place_header.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/contacts.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/contacts.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/loft-logo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/loft-logo.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/blocks/nav/_device/nav_device_mobile.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/nav/_device/nav_device_mobile.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/constants.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/constants.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/adornos10.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/adornos10.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/adornos11.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/adornos11.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/adornos12.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/adornos12.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/adornos2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/adornos2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/adornos3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/adornos3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/adornos4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/adornos4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/adornos5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/adornos5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/adornos6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/adornos6.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/adornos7.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/adornos7.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/adornos8.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/adornos8.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/adornos9.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/adornos9.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/photosession.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/photosession.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/prices.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/prices.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tour.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/tour.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +54,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/images" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../adornos-reg-react" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="prettierjs.PrettierConfiguration.Package" value="C:\Users\ASUS\dev\adornos-loft\node_modules\prettier" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
@@ -115,7 +129,10 @@
       <workItem from="1629721206741" duration="627000" />
       <workItem from="1630431369243" duration="837000" />
       <workItem from="1630432227506" duration="19000" />
-      <workItem from="1630518996991" duration="630000" />
+      <workItem from="1630518996991" duration="2028000" />
+      <workItem from="1633364939597" duration="884000" />
+      <workItem from="1636902165174" duration="938000" />
+      <workItem from="1636914146076" duration="6319000" />
     </task>
     <servers />
   </component>
